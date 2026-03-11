@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+<head> <script type="text/javascript">
+/* <![CDATA[ */
+ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0});var gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),null==t&&(t=10),gform.hooks[o][n].push({tag:i,callable:r,priority:t})},doHook:function(o,n,r){if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[o][n]){var t,i=gform.hooks[o][n];i.sort(function(o,n){return o.priority-n.priority});for(var e=0;e<i.length;e++)"function"!=typeof(t=i[e].callable)&&(t=window[t]),"action"==o?t.apply(null,r):r[0]=t.apply(null,r)}if("filter"==o)return r[0]},removeHook:function(o,n,r,t){if(null!=gform.hooks[o][n])for(var i=gform.hooks[o][n],e=i.length-1;0<=e;e--)null!=t&&t!=i[e].tag||null!=r&&r!=i[e].priority||i.splice(e,1)}}} 
+/* ]]> */
+</script>
+
+	<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="https://grebex.nl/xmlrpc.php" />
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+	
+	<meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v27.1.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Pagina niet gevonden - Grebex B.V.</title>
+	<meta property="og:locale" content="nl_NL" />
+	<meta property="og:title" content="Pagina niet gevonden - Grebex B.V." />
+	<meta property="og:site_name" content="Grebex B.V." />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://grebex.nl/#website","url":"https://grebex.nl/","name":"Grebex B.V.","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://grebex.nl/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"nl-NL"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//unpkg.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Grebex B.V. &raquo; feed" href="https://grebex.nl/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Grebex B.V. &raquo; reacties feed" href="https://grebex.nl/comments/feed/" />
+<meta content="Divi Child v.4.11.1.1633262680" name="generator"/><style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://grebex.nl/wp-includes/css/dist/block-library/style.min.css?ver=6.9.3' type='text/css' media='all' />
+
+<style id='wp-block-heading-inline-css' type='text/css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://grebex.nl/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id='wp-block-latest-comments-inline-css' type='text/css'>
+ol.wp-block-latest-comments{box-sizing:border-box;margin-left:0}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment)){line-height:1.1}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment-excerpt p)){line-height:1.8}.has-dates :where(.wp-block-latest-comments:not([style*=line-height])),.has-excerpts :where(.wp-block-latest-comments:not([style*=line-height])){line-height:1.5}.wp-block-latest-comments .wp-block-latest-comments{padding-left:0}.wp-block-latest-comments__comment{list-style:none;margin-bottom:1em}.has-avatars .wp-block-latest-comments__comment{list-style:none;min-height:2.25em}.has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-excerpt,.has-avatars .wp-block-latest-comments__comment .wp-block-latest-comments__comment-meta{margin-left:3.25em}.wp-block-latest-comments__comment-excerpt p{font-size:.875em;margin:.36em 0 1.4em}.wp-block-latest-comments__comment-date{display:block;font-size:.75em}.wp-block-latest-comments .avatar,.wp-block-latest-comments__comment-avatar{border-radius:1.5em;display:block;float:left;height:2.5em;margin-right:.75em;width:2.5em}.wp-block-latest-comments[class*=-font-size] a,.wp-block-latest-comments[style*=font-size] a{font-size:inherit}
+/*# sourceURL=https://grebex.nl/wp-includes/blocks/latest-comments/style.min.css */
+</style>
+<style id='wp-block-latest-posts-inline-css' type='text/css'>
+.wp-block-latest-posts{box-sizing:border-box}.wp-block-latest-posts.alignleft{margin-right:2em}.wp-block-latest-posts.alignright{margin-left:2em}.wp-block-latest-posts.wp-block-latest-posts__list{list-style:none}.wp-block-latest-posts.wp-block-latest-posts__list li{clear:both;overflow-wrap:break-word}.wp-block-latest-posts.is-grid{display:flex;flex-wrap:wrap}.wp-block-latest-posts.is-grid li{margin:0 1.25em 1.25em 0;width:100%}@media (min-width:600px){.wp-block-latest-posts.columns-2 li{width:calc(50% - .625em)}.wp-block-latest-posts.columns-2 li:nth-child(2n){margin-right:0}.wp-block-latest-posts.columns-3 li{width:calc(33.33333% - .83333em)}.wp-block-latest-posts.columns-3 li:nth-child(3n){margin-right:0}.wp-block-latest-posts.columns-4 li{width:calc(25% - .9375em)}.wp-block-latest-posts.columns-4 li:nth-child(4n){margin-right:0}.wp-block-latest-posts.columns-5 li{width:calc(20% - 1em)}.wp-block-latest-posts.columns-5 li:nth-child(5n){margin-right:0}.wp-block-latest-posts.columns-6 li{width:calc(16.66667% - 1.04167em)}.wp-block-latest-posts.columns-6 li:nth-child(6n){margin-right:0}}:root :where(.wp-block-latest-posts.is-grid){padding:0}:root :where(.wp-block-latest-posts.wp-block-latest-posts__list){padding-left:0}.wp-block-latest-posts__post-author,.wp-block-latest-posts__post-date{display:block;font-size:.8125em}.wp-block-latest-posts__post-excerpt,.wp-block-latest-posts__post-full-content{margin-bottom:1em;margin-top:.5em}.wp-block-latest-posts__featured-image a{display:inline-block}.wp-block-latest-posts__featured-image img{height:auto;max-width:100%;width:auto}.wp-block-latest-posts__featured-image.alignleft{float:left;margin-right:1em}.wp-block-latest-posts__featured-image.alignright{float:right;margin-left:1em}.wp-block-latest-posts__featured-image.aligncenter{margin-bottom:1em;text-align:center}
+/*# sourceURL=https://grebex.nl/wp-includes/blocks/latest-posts/style.min.css */
+</style>
+<style id='wp-block-search-inline-css' type='text/css'>
+.wp-block-search__button{margin-left:10px;word-break:normal}.wp-block-search__button.has-icon{line-height:0}.wp-block-search__button svg{height:1.25em;min-height:24px;min-width:24px;width:1.25em;fill:currentColor;vertical-align:text-bottom}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}.wp-block-search__inside-wrapper{display:flex;flex:auto;flex-wrap:nowrap;max-width:100%}.wp-block-search__label{width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__button{box-sizing:border-box;display:flex;flex-shrink:0;justify-content:center;margin-left:0;max-width:100%}.wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{min-width:0!important;transition-property:width}.wp-block-search.wp-block-search__button-only .wp-block-search__input{flex-basis:100%;transition-duration:.3s}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden,.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__inside-wrapper{overflow:hidden}.wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden .wp-block-search__input{border-left-width:0!important;border-right-width:0!important;flex-basis:0;flex-grow:0;margin:0;min-width:0!important;padding-left:0!important;padding-right:0!important;width:0!important}:where(.wp-block-search__input){appearance:none;border:1px solid #949494;flex-grow:1;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;margin-left:0;margin-right:0;min-width:3rem;padding:8px;text-decoration:unset!important;text-transform:inherit}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){background-color:#fff;border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:none}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}.wp-block-search.aligncenter .wp-block-search__inside-wrapper{margin:auto}.wp-block[data-align=right] .wp-block-search.wp-block-search__button-only .wp-block-search__inside-wrapper{float:right}
+/*# sourceURL=https://grebex.nl/wp-includes/blocks/search/style.min.css */
+</style>
+<style id='wp-block-group-inline-css' type='text/css'>
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
+/*# sourceURL=https://grebex.nl/wp-includes/blocks/group/style.min.css */
+</style>
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='wpml-menu-item-0-css' href='https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='swiper-css-css' href='https://unpkg.com/swiper/swiper-bundle.min.css?ver=6.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='et-divi-open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&#038;subset=latin,latin-ext&#038;display=swap' type='text/css' media='all' />
+<style id='divi-style-parent-inline-inline-css' type='text/css'>
+/*!
+Theme Name: Divi
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Version: 4.11.2
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+License: GNU General Public License v2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+a,abbr,acronym,address,applet,b,big,blockquote,body,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,tt,u,ul,var{margin:0;padding:0;border:0;outline:0;font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}blockquote{margin:20px 0 30px;border-left:5px solid;padding-left:20px}:focus{outline:0}del{text-decoration:line-through}pre{overflow:auto;padding:10px}figure{margin:0}table{border-collapse:collapse;border-spacing:0}article,aside,footer,header,hgroup,nav,section{display:block}body{font-family:Open Sans,Arial,sans-serif;font-size:14px;color:#666;background-color:#fff;line-height:1.7em;font-weight:500;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body.page-template-page-template-blank-php #page-container{padding-top:0!important}body.et_cover_background{background-size:cover!important;background-position:top!important;background-repeat:no-repeat!important;background-attachment:fixed}a{color:#2ea3f2}a,a:hover{text-decoration:none}p{padding-bottom:1em}p:not(.has-background):last-of-type{padding-bottom:0}p.et_normal_padding{padding-bottom:1em}strong{font-weight:700}cite,em,i{font-style:italic}code,pre{font-family:Courier New,monospace;margin-bottom:10px}ins{text-decoration:none}sub,sup{height:0;line-height:1;position:relative;vertical-align:baseline}sup{bottom:.8em}sub{top:.3em}dl{margin:0 0 1.5em}dl dt{font-weight:700}dd{margin-left:1.5em}blockquote p{padding-bottom:0}embed,iframe,object,video{max-width:100%}h1,h2,h3,h4,h5,h6{color:#333;padding-bottom:10px;line-height:1em;font-weight:500}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:inherit}h1{font-size:30px}h2{font-size:26px}h3{font-size:22px}h4{font-size:18px}h5{font-size:16px}h6{font-size:14px}input{-webkit-appearance:none}input[type=checkbox]{-webkit-appearance:checkbox}input[type=radio]{-webkit-appearance:radio}input.text,input.title,input[type=email],input[type=password],input[type=tel],input[type=text],select,textarea{background-color:#fff;border:1px solid #bbb;padding:2px;color:#4e4e4e}input.text:focus,input.title:focus,input[type=text]:focus,select:focus,textarea:focus{border-color:#2d3940;color:#3e3e3e}input.text,input.title,input[type=text],select,textarea{margin:0}textarea{padding:4px}button,input,select,textarea{font-family:inherit}img{max-width:100%;height:auto}.clear{clear:both}br.clear{margin:0;padding:0}.pagination{clear:both}#et_search_icon:hover,.et-social-icon a:hover,.et_password_protected_form .et_submit_button,.form-submit .et_pb_buttontton.alt.disabled,.nav-single a,.posted_in a{color:#2ea3f2}.et-search-form,blockquote{border-color:#2ea3f2}#main-content{background-color:#fff}.container{width:80%;max-width:1080px;margin:auto;position:relative}body:not(.et-tb) #main-content .container,body:not(.et-tb-has-header) #main-content .container{padding-top:58px}.et_full_width_page #main-content .container:before{display:none}.main_title{margin-bottom:20px}.et_password_protected_form .et_submit_button:hover,.form-submit .et_pb_button:hover{background:rgba(0,0,0,.05)}.et_button_icon_visible .et_pb_button{padding-right:2em;padding-left:.7em}.et_button_icon_visible .et_pb_button:after{opacity:1;margin-left:0}.et_button_left .et_pb_button:hover:after{left:.15em}.et_button_left .et_pb_button:after{margin-left:0;left:1em}.et_button_icon_visible.et_button_left .et_pb_button,.et_button_left .et_pb_button:hover,.et_button_left .et_pb_module .et_pb_button:hover{padding-left:2em;padding-right:.7em}.et_button_icon_visible.et_button_left .et_pb_button:after,.et_button_left .et_pb_button:hover:after{left:.15em}.et_password_protected_form .et_submit_button:hover,.form-submit .et_pb_button:hover{padding:.3em 1em}.et_button_no_icon .et_pb_button:after{display:none}.et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button,.et_button_no_icon.et_button_left .et_pb_button:hover,.et_button_no_icon .et_pb_button,.et_button_no_icon .et_pb_button:hover{padding:.3em 1em!important}.et_button_custom_icon .et_pb_button:after{line-height:1.7em}.et_button_custom_icon.et_button_icon_visible .et_pb_button:after,.et_button_custom_icon .et_pb_button:hover:after{margin-left:.3em}#left-area .post_format-post-format-gallery .wp-block-gallery:first-of-type{padding:0;margin-bottom:-16px}.entry-content table:not(.variations){border:1px solid #eee;margin:0 0 15px;text-align:left;width:100%}.entry-content thead th,.entry-content tr th{color:#555;font-weight:700;padding:9px 24px}.entry-content tr td{border-top:1px solid #eee;padding:6px 24px}#left-area ul,.entry-content ul,.et-l--body ul,.et-l--footer ul,.et-l--header ul{list-style-type:disc;padding:0 0 23px 1em;line-height:26px}#left-area ol,.entry-content ol,.et-l--body ol,.et-l--footer ol,.et-l--header ol{list-style-type:decimal;list-style-position:inside;padding:0 0 23px;line-height:26px}#left-area ul li ul,.entry-content ul li ol{padding:2px 0 2px 20px}#left-area ol li ul,.entry-content ol li ol,.et-l--body ol li ol,.et-l--footer ol li ol,.et-l--header ol li ol{padding:2px 0 2px 35px}#left-area ul.wp-block-gallery{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;list-style-type:none;padding:0}#left-area ul.products{padding:0!important;line-height:1.7!important;list-style:none!important}.gallery-item a{display:block}.gallery-caption,.gallery-item a{width:90%}#wpadminbar{z-index:100001}#left-area .post-meta{font-size:14px;padding-bottom:15px}#left-area .post-meta a{text-decoration:none;color:#666}#left-area .et_featured_image{padding-bottom:7px}.single .post{padding-bottom:25px}body.single .et_audio_content{margin-bottom:-6px}.nav-single a{text-decoration:none;color:#2ea3f2;font-size:14px;font-weight:400}.nav-previous{float:left}.nav-next{float:right}.et_password_protected_form p input{background-color:#eee;border:none!important;width:100%!important;border-radius:0!important;font-size:14px;color:#999!important;padding:16px!important;-webkit-box-sizing:border-box;box-sizing:border-box}.et_password_protected_form label{display:none}.et_password_protected_form .et_submit_button{font-family:inherit;display:block;float:right;margin:8px auto 0;cursor:pointer}.post-password-required p.nocomments.container{max-width:100%}.post-password-required p.nocomments.container:before{display:none}.aligncenter,div.post .new-post .aligncenter{display:block;margin-left:auto;margin-right:auto}.wp-caption{border:1px solid #ddd;text-align:center;background-color:#f3f3f3;margin-bottom:10px;max-width:96%;padding:8px}.wp-caption.alignleft{margin:0 30px 20px 0}.wp-caption.alignright{margin:0 0 20px 30px}.wp-caption img{margin:0;padding:0;border:0}.wp-caption p.wp-caption-text{font-size:12px;padding:0 4px 5px;margin:0}.alignright{float:right}.alignleft{float:left}img.alignleft{display:inline;float:left;margin-right:15px}img.alignright{display:inline;float:right;margin-left:15px}.page.et_pb_pagebuilder_layout #main-content{background-color:transparent}body #main-content .et_builder_inner_content>h1,body #main-content .et_builder_inner_content>h2,body #main-content .et_builder_inner_content>h3,body #main-content .et_builder_inner_content>h4,body #main-content .et_builder_inner_content>h5,body #main-content .et_builder_inner_content>h6{line-height:1.4em}body #main-content .et_builder_inner_content>p{line-height:1.7em}.wp-block-pullquote{margin:20px 0 30px}.wp-block-pullquote.has-background blockquote{border-left:none}.wp-block-group.has-background{padding:1.5em 1.5em .5em}@media (min-width:981px){#left-area{width:79.125%;padding-bottom:23px}#main-content .container:before{content:"";position:absolute;top:0;height:100%;width:1px;background-color:#e2e2e2}.et_full_width_page #left-area,.et_no_sidebar #left-area{float:none;width:100%!important}.et_full_width_page #left-area{padding-bottom:0}.et_no_sidebar #main-content .container:before{display:none}}@media (max-width:980px){#page-container{padding-top:80px}.et-tb #page-container,.et-tb-has-header #page-container{padding-top:0!important}#left-area,#sidebar{width:100%!important}#main-content .container:before{display:none!important}.et_full_width_page .et_gallery_item:nth-child(4n+1){clear:none}}@media print{#page-container{padding-top:0!important}}#wp-admin-bar-et-use-visual-builder a:before{font-family:ETmodules!important;content:"\e625";font-size:30px!important;width:28px;margin-top:-3px;color:#974df3!important}#wp-admin-bar-et-use-visual-builder:hover a:before{color:#fff!important}#wp-admin-bar-et-use-visual-builder:hover a,#wp-admin-bar-et-use-visual-builder a:hover{transition:background-color .5s ease;-webkit-transition:background-color .5s ease;-moz-transition:background-color .5s ease;background-color:#7e3bd0!important;color:#fff!important}* html .clearfix,:first-child+html .clearfix{zoom:1}.iphone .et_pb_section_video_bg video::-webkit-media-controls-start-playback-button{display:none!important;-webkit-appearance:none}.et_mobile_device .et_pb_section_parallax .et_pb_parallax_css{background-attachment:scroll}.et-social-facebook a.icon:before{content:"\e093"}.et-social-twitter a.icon:before{content:"\e094"}.et-social-google-plus a.icon:before{content:"\e096"}.et-social-instagram a.icon:before{content:"\e09a"}.et-social-rss a.icon:before{content:"\e09e"}.ai1ec-single-event:after{content:" ";display:table;clear:both}.evcal_event_details .evcal_evdata_cell .eventon_details_shading_bot.eventon_details_shading_bot{z-index:3}.wp-block-divi-layout{margin-bottom:1em}*{-webkit-box-sizing:border-box;box-sizing:border-box}#et-info-email:before,#et-info-phone:before,#et_search_icon:before,.comment-reply-link:after,.et-cart-info span:before,.et-pb-arrow-next:before,.et-pb-arrow-prev:before,.et-social-icon a:before,.et_audio_container .mejs-playpause-button button:before,.et_audio_container .mejs-volume-button button:before,.et_overlay:before,.et_password_protected_form .et_submit_button:after,.et_pb_button:after,.et_pb_contact_reset:after,.et_pb_contact_submit:after,.et_pb_font_icon:before,.et_pb_newsletter_button:after,.et_pb_pricing_table_button:after,.et_pb_promo_button:after,.et_pb_social_icon a.icon:before,.et_pb_testimonial:before,.et_pb_toggle_title:before,.form-submit .et_pb_button:after,.mobile_menu_bar:before,a.et_pb_more_button:after{font-family:ETmodules!important;speak:none;font-style:normal;font-weight:400;-webkit-font-feature-settings:normal;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-shadow:0 0;direction:ltr}.et_pb_custom_button_icon.et_pb_button:after,.et_pb_login .et_pb_custom_button_icon.et_pb_button:after{content:attr(data-icon)}.et_pb_woo_custom_button_icon .et_pb_custom_button_icon.et_pb_button:after{content:attr(data-icon)!important}.et-pb-icon{font-family:ETmodules;content:attr(data-icon);speak:none;font-weight:400;-webkit-font-feature-settings:normal;font-feature-settings:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;font-size:96px;font-style:normal;display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;direction:ltr}#et-ajax-saving{display:none;-webkit-transition:background .3s,-webkit-box-shadow .3s;transition:background .3s,-webkit-box-shadow .3s;transition:background .3s,box-shadow .3s;transition:background .3s,box-shadow .3s,-webkit-box-shadow .3s;-webkit-box-shadow:rgba(0,139,219,.247059) 0 0 60px;box-shadow:0 0 60px rgba(0,139,219,.247059);position:fixed;top:50%;left:50%;width:50px;height:50px;background:#fff;border-radius:50px;margin:-25px 0 0 -25px;z-index:999999;text-align:center}#et-ajax-saving img{margin:9px}.et-safe-mode-indicator,.et-safe-mode-indicator:focus,.et-safe-mode-indicator:hover{-webkit-box-shadow:0 5px 10px rgba(41,196,169,.15);box-shadow:0 5px 10px rgba(41,196,169,.15);background:#29c4a9;color:#fff;font-size:14px;font-weight:600;padding:12px;line-height:16px;border-radius:3px;position:fixed;bottom:30px;right:30px;z-index:999999;text-decoration:none;font-family:Open Sans,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.et_pb_button{font-size:20px;font-weight:500;padding:.3em 1em;line-height:1.7em!important;background-color:transparent;background-size:cover;background-position:50%;background-repeat:no-repeat;border:2px solid;border-radius:3px;-webkit-transition-duration:.2s;transition-duration:.2s;-webkit-transition-property:all!important;transition-property:all!important}.et_pb_button,.et_pb_button_inner{position:relative}.et_pb_button:hover,.et_pb_module .et_pb_button:hover{border:2px solid transparent;padding:.3em 2em .3em .7em}.et_pb_button:hover{background-color:hsla(0,0%,100%,.2)}.et_pb_bg_layout_light.et_pb_button:hover,.et_pb_bg_layout_light .et_pb_button:hover{background-color:rgba(0,0,0,.05)}.et_pb_button:after,.et_pb_button:before{font-size:32px;line-height:1em;content:"\35";opacity:0;position:absolute;margin-left:-1em;-webkit-transition:all .2s;transition:all .2s;text-transform:none;-webkit-font-feature-settings:"kern" off;font-feature-settings:"kern" off;font-variant:none;font-style:normal;font-weight:400;text-shadow:none}.et_pb_button.et_hover_enabled:hover:after,.et_pb_button.et_pb_hovered:hover:after{-webkit-transition:none!important;transition:none!important}.et_pb_button:before{display:none}.et_pb_button:hover:after{opacity:1;margin-left:0}.et_pb_column_1_3 h1,.et_pb_column_1_4 h1,.et_pb_column_1_5 h1,.et_pb_column_1_6 h1,.et_pb_column_2_5 h1{font-size:26px}.et_pb_column_1_3 h2,.et_pb_column_1_4 h2,.et_pb_column_1_5 h2,.et_pb_column_1_6 h2,.et_pb_column_2_5 h2{font-size:23px}.et_pb_column_1_3 h3,.et_pb_column_1_4 h3,.et_pb_column_1_5 h3,.et_pb_column_1_6 h3,.et_pb_column_2_5 h3{font-size:20px}.et_pb_column_1_3 h4,.et_pb_column_1_4 h4,.et_pb_column_1_5 h4,.et_pb_column_1_6 h4,.et_pb_column_2_5 h4{font-size:18px}.et_pb_column_1_3 h5,.et_pb_column_1_4 h5,.et_pb_column_1_5 h5,.et_pb_column_1_6 h5,.et_pb_column_2_5 h5{font-size:16px}.et_pb_column_1_3 h6,.et_pb_column_1_4 h6,.et_pb_column_1_5 h6,.et_pb_column_1_6 h6,.et_pb_column_2_5 h6{font-size:15px}.et_pb_bg_layout_dark,.et_pb_bg_layout_dark h1,.et_pb_bg_layout_dark h2,.et_pb_bg_layout_dark h3,.et_pb_bg_layout_dark h4,.et_pb_bg_layout_dark h5,.et_pb_bg_layout_dark h6{color:#fff!important}.et_pb_module.et_pb_text_align_left{text-align:left}.et_pb_module.et_pb_text_align_center{text-align:center}.et_pb_module.et_pb_text_align_right{text-align:right}.et_pb_module.et_pb_text_align_justified{text-align:justify}.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}.et_pb_bg_layout_light .et_pb_more_button{color:#2ea3f2}.et_builder_inner_content{position:relative;z-index:1}header .et_builder_inner_content{z-index:2}.et_pb_css_mix_blend_mode_passthrough{mix-blend-mode:unset!important}.et_pb_image_container{margin:-20px -20px 29px}.et_pb_module_inner{position:relative}.et_hover_enabled_preview{z-index:2}.et_hover_enabled:hover{position:relative;z-index:2}.et_pb_all_tabs,.et_pb_module,.et_pb_posts_nav a,.et_pb_tab,.et_pb_with_background{background-size:cover;background-position:50%;background-repeat:no-repeat}.et_pb_with_border{position:relative;border:0 solid #333}.post-password-required .et_pb_row{padding:0;width:100%}.post-password-required .et_password_protected_form{min-height:0}body.et_pb_pagebuilder_layout.et_pb_show_title .post-password-required .et_password_protected_form h1,body:not(.et_pb_pagebuilder_layout) .post-password-required .et_password_protected_form h1{display:none}.et_pb_no_bg{padding:0!important}.et_overlay.et_pb_inline_icon:before,.et_pb_inline_icon:before{content:attr(data-icon)}.et_pb_more_button{color:inherit;text-shadow:none;text-decoration:none;display:inline-block;margin-top:20px}.et_parallax_bg_wrap{overflow:hidden;position:absolute;top:0;right:0;bottom:0;left:0}.et_parallax_bg{background-repeat:no-repeat;background-position:top;background-size:cover;position:absolute;bottom:0;left:0;width:100%;height:100%;display:block}.et_parallax_bg.et_parallax_bg__hover,.et_parallax_bg.et_parallax_bg_phone,.et_parallax_bg.et_parallax_bg_tablet,.et_pb_section_parallax_hover:hover .et_parallax_bg:not(.et_parallax_bg__hover){display:none}.et_pb_section_parallax_hover:hover .et_parallax_bg.et_parallax_bg__hover{display:block}.et_pb_module.et_pb_section_parallax,.et_pb_posts_nav a.et_pb_section_parallax,.et_pb_tab.et_pb_section_parallax{position:relative}.et_pb_section_parallax .et_pb_parallax_css,.et_pb_slides .et_parallax_bg.et_pb_parallax_css{background-attachment:fixed}body.et-bfb .et_pb_section_parallax .et_pb_parallax_css,body.et-bfb .et_pb_slides .et_parallax_bg.et_pb_parallax_css{background-attachment:scroll;bottom:auto}.et_pb_section_parallax.et_pb_column .et_pb_module,.et_pb_section_parallax.et_pb_row .et_pb_column,.et_pb_section_parallax.et_pb_row .et_pb_module{z-index:9;position:relative}.et_pb_more_button:hover:after{opacity:1;margin-left:0}.et_pb_preload .et_pb_section_video_bg,.et_pb_preload>div{visibility:hidden}.et_pb_preload,.et_pb_section.et_pb_section_video.et_pb_preload{position:relative;background:#464646!important}.et_pb_preload:before{content:"";position:absolute;top:50%;left:50%;background:url(https://grebex.nl/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif) no-repeat;border-radius:32px;width:32px;height:32px;margin:-16px 0 0 -16px}.box-shadow-overlay{position:absolute;top:0;left:0;width:100%;height:100%;z-index:10;pointer-events:none}.et_pb_section>.box-shadow-overlay~.et_pb_row{z-index:11}.et_pb_row>.box-shadow-overlay{z-index:8}.has-box-shadow-overlay{position:relative}.et_clickable{cursor:pointer}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute!important;width:1px;word-wrap:normal!important}.et_multi_view_hidden,.et_multi_view_hidden_image{display:none!important}@keyframes multi-view-image-fade{0%{opacity:0}10%{opacity:.1}20%{opacity:.2}30%{opacity:.3}40%{opacity:.4}50%{opacity:.5}60%{opacity:.6}70%{opacity:.7}80%{opacity:.8}90%{opacity:.9}to{opacity:1}}.et_multi_view_image__loading{visibility:hidden}.et_multi_view_image__loaded{-webkit-animation:multi-view-image-fade .5s;animation:multi-view-image-fade .5s}#et-pb-motion-effects-offset-tracker{visibility:hidden!important;opacity:0;position:absolute;top:0;left:0}.et-pb-before-scroll-animation{opacity:0}header.et-l.et-l--header:after{clear:both;display:block;content:""}.et_pb_module{-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-duration:.2s;animation-duration:.2s}@-webkit-keyframes fadeBottom{0%{opacity:0;-webkit-transform:translateY(10%);transform:translateY(10%)}to{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes fadeBottom{0%{opacity:0;-webkit-transform:translateY(10%);transform:translateY(10%)}to{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}}@-webkit-keyframes fadeLeft{0%{opacity:0;-webkit-transform:translateX(-10%);transform:translateX(-10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeLeft{0%{opacity:0;-webkit-transform:translateX(-10%);transform:translateX(-10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@-webkit-keyframes fadeRight{0%{opacity:0;-webkit-transform:translateX(10%);transform:translateX(10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeRight{0%{opacity:0;-webkit-transform:translateX(10%);transform:translateX(10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@-webkit-keyframes fadeTop{0%{opacity:0;-webkit-transform:translateY(-10%);transform:translateY(-10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes fadeTop{0%{opacity:0;-webkit-transform:translateY(-10%);transform:translateY(-10%)}to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}}@-webkit-keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.et-waypoint:not(.et_pb_counters){opacity:0}@media (min-width:981px){.et_pb_section.et_section_specialty div.et_pb_row .et_pb_column .et_pb_column .et_pb_module.et-last-child,.et_pb_section.et_section_specialty div.et_pb_row .et_pb_column .et_pb_column .et_pb_module:last-child,.et_pb_section.et_section_specialty div.et_pb_row .et_pb_column .et_pb_row_inner .et_pb_column .et_pb_module.et-last-child,.et_pb_section.et_section_specialty div.et_pb_row .et_pb_column .et_pb_row_inner .et_pb_column .et_pb_module:last-child,.et_pb_section div.et_pb_row .et_pb_column .et_pb_module.et-last-child,.et_pb_section div.et_pb_row .et_pb_column .et_pb_module:last-child{margin-bottom:0}}@media (max-width:980px){.et_overlay.et_pb_inline_icon_tablet:before,.et_pb_inline_icon_tablet:before{content:attr(data-icon-tablet)}.et_parallax_bg.et_parallax_bg_tablet_exist{display:none}.et_parallax_bg.et_parallax_bg_tablet{display:block}.et_pb_column .et_pb_module{margin-bottom:30px}.et_pb_row .et_pb_column .et_pb_module.et-last-child,.et_pb_row .et_pb_column .et_pb_module:last-child,.et_section_specialty .et_pb_row .et_pb_column .et_pb_module.et-last-child,.et_section_specialty .et_pb_row .et_pb_column .et_pb_module:last-child{margin-bottom:0}.et_pb_more_button{display:inline-block!important}.et_pb_bg_layout_light_tablet.et_pb_button,.et_pb_bg_layout_light_tablet.et_pb_module.et_pb_button,.et_pb_bg_layout_light_tablet .et_pb_more_button{color:#2ea3f2}.et_pb_bg_layout_light_tablet .et_pb_forgot_password a{color:#666}.et_pb_bg_layout_light_tablet h1,.et_pb_bg_layout_light_tablet h2,.et_pb_bg_layout_light_tablet h3,.et_pb_bg_layout_light_tablet h4,.et_pb_bg_layout_light_tablet h5,.et_pb_bg_layout_light_tablet h6{color:#333!important}.et_pb_module .et_pb_bg_layout_light_tablet.et_pb_button{color:#2ea3f2!important}.et_pb_bg_layout_light_tablet{color:#666!important}.et_pb_bg_layout_dark_tablet,.et_pb_bg_layout_dark_tablet h1,.et_pb_bg_layout_dark_tablet h2,.et_pb_bg_layout_dark_tablet h3,.et_pb_bg_layout_dark_tablet h4,.et_pb_bg_layout_dark_tablet h5,.et_pb_bg_layout_dark_tablet h6{color:#fff!important}.et_pb_bg_layout_dark_tablet.et_pb_button,.et_pb_bg_layout_dark_tablet.et_pb_module.et_pb_button,.et_pb_bg_layout_dark_tablet .et_pb_more_button{color:inherit}.et_pb_bg_layout_dark_tablet .et_pb_forgot_password a{color:#fff}.et_pb_module.et_pb_text_align_left-tablet{text-align:left}.et_pb_module.et_pb_text_align_center-tablet{text-align:center}.et_pb_module.et_pb_text_align_right-tablet{text-align:right}.et_pb_module.et_pb_text_align_justified-tablet{text-align:justify}}@media (max-width:767px){.et_pb_more_button{display:inline-block!important}.et_overlay.et_pb_inline_icon_phone:before,.et_pb_inline_icon_phone:before{content:attr(data-icon-phone)}.et_parallax_bg.et_parallax_bg_phone_exist{display:none}.et_parallax_bg.et_parallax_bg_phone{display:block}.et-hide-mobile{display:none!important}.et_pb_bg_layout_light_phone.et_pb_button,.et_pb_bg_layout_light_phone.et_pb_module.et_pb_button,.et_pb_bg_layout_light_phone .et_pb_more_button{color:#2ea3f2}.et_pb_bg_layout_light_phone .et_pb_forgot_password a{color:#666}.et_pb_bg_layout_light_phone h1,.et_pb_bg_layout_light_phone h2,.et_pb_bg_layout_light_phone h3,.et_pb_bg_layout_light_phone h4,.et_pb_bg_layout_light_phone h5,.et_pb_bg_layout_light_phone h6{color:#333!important}.et_pb_module .et_pb_bg_layout_light_phone.et_pb_button{color:#2ea3f2!important}.et_pb_bg_layout_light_phone{color:#666!important}.et_pb_bg_layout_dark_phone,.et_pb_bg_layout_dark_phone h1,.et_pb_bg_layout_dark_phone h2,.et_pb_bg_layout_dark_phone h3,.et_pb_bg_layout_dark_phone h4,.et_pb_bg_layout_dark_phone h5,.et_pb_bg_layout_dark_phone h6{color:#fff!important}.et_pb_bg_layout_dark_phone.et_pb_button,.et_pb_bg_layout_dark_phone.et_pb_module.et_pb_button,.et_pb_bg_layout_dark_phone .et_pb_more_button{color:inherit}.et_pb_module .et_pb_bg_layout_dark_phone.et_pb_button{color:#fff!important}.et_pb_bg_layout_dark_phone .et_pb_forgot_password a{color:#fff}.et_pb_module.et_pb_text_align_left-phone{text-align:left}.et_pb_module.et_pb_text_align_center-phone{text-align:center}.et_pb_module.et_pb_text_align_right-phone{text-align:right}.et_pb_module.et_pb_text_align_justified-phone{text-align:justify}}@media (max-width:479px){a.et_pb_more_button{display:block}}@media (min-width:768px) and (max-width:980px){[data-et-multi-view-load-tablet-hidden=true]:not(.et_multi_view_swapped){display:none!important}}@media (max-width:767px){[data-et-multi-view-load-phone-hidden=true]:not(.et_multi_view_swapped){display:none!important}}@-webkit-keyframes multi-view-image-fade{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}50%{-webkit-transform:scale(1.01);transform:scale(1.01);opacity:1}to{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
+/*# sourceURL=divi-style-parent-inline-inline-css */
+</style>
+<link rel='stylesheet' id='divi-dynamic-css' href='https://grebex.nl/wp-content/et-cache/notfound/et-divi-dynamic-tb-25-tb-181.css?ver=1773169470' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-machine-styles-css' href='https://grebex.nl/wp-content/plugins/divi-machine/styles/style.min.css?ver=3.5.5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-ajax-filter-styles-css' href='https://grebex.nl/wp-content/plugins/divi-machine/includes/modules/divi-ajax-filter/styles/style.min.css?ver=1.6.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css' href='https://grebex.nl/wp-content/themes/vdberg/style.css?ver=4.11.1.1633262680' type='text/css' media='all' />
+<script type="text/javascript" id="wpml-cookie-js-extra">
+/* <![CDATA[ */
+var wpml_cookies = {"wp-wpml_current_language":{"value":"nl","expires":1,"path":"/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"nl","expires":1,"path":"/"}};
+//# sourceURL=wpml-cookie-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js?ver=4.6.13" id="wpml-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/plugins/divi-machine/includes/modules/divi-ajax-filter/js/masonry.min.js?ver=3.5.5.2.1" id="divi-filter-masonry-js-js"></script>
+<script type="text/javascript" id="divi-filter-loadmore-js-js-extra">
+/* <![CDATA[ */
+var loadmore_ajax_object = {"ajax_url":"https://grebex.nl/wp-admin/admin-ajax.php"};
+//# sourceURL=divi-filter-loadmore-js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/plugins/divi-machine/includes/modules/divi-ajax-filter/includes/modules/MachineLoop/../../../js/divi-filter-loadmore.min.js?ver=1.6.4.0" id="divi-filter-loadmore-js-js"></script>
+<link rel="https://api.w.org/" href="https://grebex.nl/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://grebex.nl/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.3" />
+<meta name="generator" content="WPML ver:4.6.13 stt:37,1,4,3,27,50;" />
+<script>
+jQuery(document).ready(function(i){const c=window.navigator.userAgent;function t(c){i(".et_pb_de_mach_archive_loop").each(function(t,s){var e,n,o,d=i(this).find(".dmach-grid-item"),h=(e=i(".dmach-grid-sizes"),n=c,o=void 0,i(e.attr("class").split(" ")).each(function(){this.indexOf(n)>-1&&(o=this)}),o).replace(c,""),a=1,r=1;i(d).each(function(i,c){a++});var l=Math.ceil(a/h),m=l*h;i(d).each(function(c,t){var s=(r-1)%h+1,e=Math.ceil(r*l/m);i(this).closest(".grid-posts").find(".dmach-grid-item:nth-child("+r+")").css("-ms-grid-row",""+e),i(this).closest(".grid-posts").find(".dmach-grid-item:nth-child("+r+")").css("-ms-grid-column",""+s),r++})})}/MSIE|Trident/.test(c)&&i(window).on("resize",function(){i(window).width()>=981?(col_size="col-desk-",t(col_size)):(col_size="col-mob-",t(col_size))})});
+</script>
+
+<style>
+.col-desk-1>:not(.no-results-layout){display:-ms-grid;-ms-grid-columns:1fr}.col-desk-2>:not(.no-results-layout){display:-ms-grid;-ms-grid-columns:1fr 1fr}.col-desk-3>:not(.no-results-layout){display:-ms-grid;-ms-grid-columns:1fr 1fr 1fr}.col-desk-4>:not(.no-results-layout){display:-ms-grid;-ms-grid-columns:1fr 1fr 1fr 1fr}.col-desk-5>:not(.no-results-layout){display:-ms-grid;-ms-grid-columns:1fr 1fr 1fr 1fr 1fr}.col-desk-6>:not(.no-results-layout){display:-ms-grid;-ms-grid-columns:1fr 1fr 1fr 1fr 1fr 1fr}@media(max-width:980px){body .col-mob-1>:not(.no-results-layout){display:-ms-grid;-ms-grid-columns:1fr}body .col-mob-2>:not(.no-results-layout){display:-ms-grid;-ms-grid-columns:1fr 1fr}}@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){.et_pb_gutters4 .dmach-grid-sizes>:not(.no-results-layout)>div{margin-left:8%!important;margin-right:8%!important}.et_pb_gutters3 .dmach-grid-sizes>:not(.no-results-layout)>div{margin-left:5.5%!important;margin-right:5.5%!important}.et_pb_gutters2 .dmach-grid-sizes>:not(.no-results-layout)>div{margin-left:3%!important;margin-right:3%!important}.et_pb_gutters1 .dmach-grid-sizes>:not(.no-results-layout)>div{margin-left:0!important;margin-right:0!important}}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />  <style>
+.et_pb_wc_add_to_cart form.cart .variations td.value span:after {
+  display: none !important;
+}
+</style>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/00f4b4b9f2.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js?ver=5.8" id="jquery-js"></script>
+<link rel="icon" href="https://grebex.nl/wp-content/uploads/2022/05/cropped-Logo_GREBEX_DEF-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://grebex.nl/wp-content/uploads/2022/05/cropped-Logo_GREBEX_DEF-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://grebex.nl/wp-content/uploads/2022/05/cropped-Logo_GREBEX_DEF-180x180.png" />
+<meta name="msapplication-TileImage" content="https://grebex.nl/wp-content/uploads/2022/05/cropped-Logo_GREBEX_DEF-270x270.png" />
+<style id="et-divi-customizer-global-cached-inline-styles">.container,.et_pb_row,.et_pb_slider .et_pb_container,.et_pb_fullwidth_section .et_pb_title_container,.et_pb_fullwidth_section .et_pb_title_featured_container,.et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container{max-width:1240px}.et_boxed_layout #page-container,.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #top-header,.et_boxed_layout.et_non_fixed_nav.et_transparent_nav #page-container #main-header,.et_fixed_nav.et_boxed_layout #page-container #top-header,.et_fixed_nav.et_boxed_layout #page-container #main-header,.et_boxed_layout #page-container .container,.et_boxed_layout #page-container .et_pb_row{max-width:1400px}@media only screen and (min-width:1550px){.et_pb_row{padding:31px 0}.et_pb_section{padding:62px 0}.single.et_pb_pagebuilder_layout.et_full_width_page .et_post_meta_wrapper{padding-top:93px}.et_pb_fullwidth_section{padding:0}}.onze-klanten-slider img{height:100%;object-fit:contain;max-height:50px;filter:grayscale(1);margin:auto;opacity:0.4;transition:all 0.3s ease-in-out}#custom-popup .close-btn{z-index:999}div#information_machine_row{z-index:0}.onze-klanten-slider img:hover{opacity:1;filter:grayscale(0)}footer.et-l.et-l--footer{z-index:0;position:relative}.onze-klanten-slider .slick-slide{display:flex!important;height:100%!important;min-height:100px}.onze-klanten-slider .slick-slide{margin:0 27px}.onze-klanten-slider .slick-list{margin:0 -27px}#page-container #berg_top_heading #main_row{display:flex;align-items:center;padding:20px}#meta_loader_gallery .swiper-thumbs .swiper-wrapper{display:grid;grid-template-columns:1fr 1fr;gap:20px}#meta_loader_gallery .swiper-thumbs .swiper-slide{width:100%!important;box-sizing:border-box;padding:0 0px;height:150px}#meta_loader_gallery .swiper-thumbs .swiper-slide img{height:100%;object-fit:cover}@media (max-width:768px){#meta_loader_gallery .swiper-thumbs .swiper-slide{}div#nav_row{position:unset!important}#nav_row .et_pb_menu_inner_container{position:unset}#mobile_heading #main_row{position:unset}#mobile_heading #main_row{padding:20px 0px!important}#mobile_heading #main_row .et-menu li li a{width:fit-content!important}#mobile_heading .et_pb_menu .et_pb_menu__menu>nav>ul>li>ul{width:fit-content!important}#page-container #mobile_heading .et_mobile_menu{min-width:101vw!important;margin-left:calc(-50vw - 81px)!important;top:78px!important}}.form_inner{position:relative;height:70vh;overflow:scroll;padding-bottom:0px}.form_inner{overflow:auto;scrollbar-width:none;-ms-overflow-style:none}.form_inner::-webkit-scrollbar{display:none}#custom-popup h2{font-size:35px;text-align:center;margin-bottom:40px;font-weight:bold}#custom-popup .gform_footer.top_label{float:unset;margin:auto;margin-top:0px!important}button.close-btn{font-weight:bold;border-radius:99px;color:#777777}.button_footer_meta_loader{display:flex;flex-wrap:wrap;gap:10px;margin-left:auto}.button_footer_meta_loader .et_pb_button_module_wrapper:first-child{margin-left:auto}.button-wrapper{display:flex;gap:10px;flex-wrap:wrap}.oplossing_meta_loader ol strong{margin-bottom:auto!important;min-width:200px}.button-wrapper .verdien_model_button{margin-top:0px!important}.button-wrapper .download-button a{background:#ffffff;border:1px solid #ad1128;color:#ad1128}body #page-container #information_machine_row .et_pb_button_module_wrapper .meer_informatie_aanvragen{background:#ffffff!important;border:1px solid #ad1128!important;color:#ad1128!important}.button-wrapper .download-button{margin-left:0px!important}#new_footer_item h2{margin-bottom:0px!important;padding:0px}#new_footer_item h2 strong{color:#D7332C}div#info{margin-top:0px}.machine_top_image_video img,.machine_top_image_video iframe{border-radius:15px;overflow:hidden;max-height:320px;width:100%;object-fit:cover}#machine_block .dmach-post-title{font-size:20px;color:black;font-weight:bold}#page-container #machine_block #info .dmach-acf-value{font-size:14px!important;color:black;font-weight:normal;line-height:20px!important}.over_ons_new ul{margin-left:0px;padding-left:0px}.over_ons_new ul li:before{content:"";background-image:url(/wp-content/uploads/2024/02/arrow-purple.svg);position:relative;height:11px;width:11px;min-width:11px;display:inline-flex}.over_ons_new li{list-style-type:none;display:flex;gap:16px;align-items:center}#machine_block #image img{height:150px;object-fit:cover}#page-container #berg_top_heading li{height:67px;align-content:center;align-items:center;cursor:pointer}#page-container #primary_button{background-color:#FFF!important}#machine_block{display:flex;flex-direction:column}#machine_block .dmach-post-title{border-bottom:1px solid #d8d8d8;padding-bottom:10px;margin-bottom:10px}#image_full_right_left{display:flex}#image_full_right_left .et_pb_image_wrap,#image_full_right_left img{height:100%}#slider{z-index:5;min-height:300px;max-height:370px;display:flex;align-items:center;position:relative}#cat_and_slider_section{margin-bottom:-500px}#stap_section{min-height:370px;border-radius:15px;position:relative;overflow:hidden;box-shadow:0px 10px 20px #28282842;min-width:300px}#stap_section:before{content:"";background:transparent linear-gradient(180deg,#00000000 0%,#0000008c 100%) 0% 0% no-repeat padding-box;top:0px;bottom:0px;right:0px;left:0px;position:absolute;z-index:2;transition:all 0.6s ease-in-out;opacity:0.8}#stap_section:hover:before{content:"";top:-100%;opacity:1}#stap_row .et_pb_column{flex-direction:column-reverse}#stap_row{padding:50px 10px}#stap_section:hover .stappen_content,#stap_section:hover .secondair_button{opacity:1!important}#stap_section:hover #stap_row .et_pb_column{flex-direction:column;overflow:unset!important}#slider .slick-slider{display:grid;grid-template-columns:60px 60px 1fr;grid-template-areas:"slider slider slider"
+"left right ."}#slider .slick-list{grid-area:slider;overflow:unset}#slider .slick-prev{grid-area:left;left:0px}#slider .slick-prev:before{content:"\f060"!important;font-family:"Font Awesome 5 Free"!important;font-size:20px!important;font-weight:900}#slider .slick-next{grid-area:right;right:0px;left:20px}#slider .slick-next:before{content:"\f061"!important;font-family:"Font Awesome 5 Free"!important;font-size:20px!important;font-weight:900}#slider .slick-arrow:before{position:relative;top:unset;left:unset;right:unset;text-shadow:unset;font-size:41px;color:#FFF!important}#slider .slick-arrow{height:59px;width:59px;background-color:transparent;display:grid;align-items:center;align-self:center;align-content:center;position:relative;border-radius:99px;border:2px dashed #EB3447}#slider_bg_image_row img{object-fit:cover}#slider #content{background:#000000a3 0% 0% no-repeat padding-box;border-radius:15px 0px;position:absolute;bottom:0px;right:0px;padding:20px;box-sizing:border-box}.gform_wrapper input[type="text"],.gform_wrapper input[type="email"],.gform_wrapper input[type="tel"],.gform_wrapper select{background-color:#FFF;border:1px solid #F2F2F2;border-radius:99px;padding:0px 20px!important;height:52px}.gform_wrapper textarea{height:auto!important;min-height:212px}.gform_wrapper.gravity-theme .gfield_label{font-size:18px;margin-bottom:8px;display:inline-block;padding:0;color:#FFF}.gform_wrapper.gravity-theme *{box-sizing:border-box}.gform_wrapper label{font-weight:400!important}.gform_wrapper textarea{background-color:#FFF;border:1px solid #F2F2F2;border-radius:15px;padding:20px!important;max-width:100%}label.gfield_consent_label{color:#FFF;font-size:16px;max-width:380px;float:left}input[type="checkbox"]{float:left}.ginput_container.ginput_container_consent{display:flex;align-items:center;gap:20px}.gform_footer input[type="submit"]{min-height:52px;border:0px;border-radius:99px;background-color:#ad1129;color:#FFF;font-size:18px;font-weight:700;padding:0px 20px;cursor:pointer}.gform_footer{width:fit-content;float:right;position:relative;margin-top:-80px!important}#machine_gallerij .loop-grid{grid-gap:22px!important}#machine_gallerij .grid-item{margin-bottom:-20px!important}#machine_gallerij .et_pb_gallery_image{}#machine_gallerij .grid-item img{border-radius:8px;overflow:hidden;height:100%}#inhoud_machines h2{font:normal normal bold 36px/55px Poppins;font-weight:700}#inhoud_machines h3{font:normal normal bold 26px/45px Poppins;font-weight:700}#slider.not_slider{max-height:unset;min-height:unset}#stap_section:hover #button_show_on_hover{transform:translatey(0%);transition:all 0.3s ease-in-out}#slider #content{transform:translatey(20%);transition:all 0.3s ease-in-out;z-index:3}#stap_section:hover #content{transform:translatey(0%)!important;transition:all 0.3s ease-in-out}body #page-container #button_show_on_hover{transform:translatey(200%);padding:0px!important;transition:all 0.3s ease-in-out;min-height:unset}#klanten_archief .grid-col img{max-height:158px}#klanten_archief .grid-col{cursor:pointer}#klanten_archief .grid-col .dmach-acf-item-content{text-align:center}#klanten_archief .grid-col .et_pb_section{display:flex;align-content:center;align-items:center}.klanten_image{text-align:center}.medewerker_item{display:grid;padding:20px;box-sizing:border-box;text-align:center}.medewerker_item .naam{color:#AD1128;font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-size:20px;font-weight:500;margin-top:30px}.medewerker_item .functie{letter-spacing:0px;color:#282828;font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-size:16px;font-weight:400}#medewerker_section{}#medewerker_section img{width:calc(100% + 40px);border-radius:15px 15px 0px 0px;margin:auto;object-fit:cover;aspect-ratio:1/1;margin-left:-20px;margin-top:-20px;position:relative;max-width:unset}#medewerker_section .socials a{color:#EDEDED}#medewerker_section .socials{display:flex;gap:10px;margin:auto}#page-container .mega-menu .sub-menu{background-color:#282828!important;border-top:0px!important;transition:all 0.6s ease-in-out;min-height:355px}#page-container .mega-menu .sub-menu{transform:translateX(-200vw)}#page-container .mega-menu .sub-menu li .sub-menu{transform:translateX(0%)!important}#page-container ul li.mega-menu:hover>.sub-menu{transform:translateX(0%)!important}.mega-menu .sub-menu li{margin-bottom:unset!important}#page-container .mega-menu .sub-menu:before{content:"";position:absolute;height:100%;width:100vw;left:-100vw;top:0px;bottom:0px;right:0px;background-color:#282828;background:linear-gradient(269deg,rgb(40 40 40),rgb(215 51 45 / 48%)),url(/wp-content/uploads/2021/10/Berg-ELP200-Twin-2.png);background-size:cover;pointer-events:none}#page-container .mega-menu .sub-menu:after{content:"";position:absolute;height:100%;width:100vw;right:-100vw;top:0px;bottom:0px;left:0px;background-color:#282828;pointer-events:none;z-index:-1}.sub_menu_wrapper{display:grid}.sub_menu_item{display:grid;grid-template-columns:1fr;grid-template-areas:"menu image"}.sub_menu_item a{width:100%!important;grid-area:menu;z-index:12}.sub_menu_image{opacity:0;min-height:300px;position:absolute;right:0px;top:0px;bottom:0px;left:auto;overflow:hidden;border-radius:15px;width:50%;grid-area:image;transition:all 1s ease-in-out;z-index:8}.sub-menu-name{color:#FFF!important}.sub_menu_item a:hover+.sub_menu_image{opacity:1!important;transition:all 1s ease-in-out}.sub_menu_item a{padding:0px!important}.sub_menu_item a:hover+.Wellness{opacity:0;transition:all 0s ease-in-out;z-index:1}.sub_menu_item .Wellness{opacity:1;transition:all 0s ease-in-out;z-index:1}.sub_menu_item .Crate{opacity:1;transition:all 0s ease-in-out;z-index:1}.sub_menu_image img{border-radius:15px;width:100%;object-fit:cover;height:100%}.sub_menu_image:first-child{display:block!important}#mobile_heading #main_row{display:flex;align-items:center;padding:20px}#page-container #mobile_heading .et_mobile_nav_menu:before{content:'MENU';position:relative;color:#333;font-size:16px;right:0px;top:2px}#page-container #mobile_heading #et_mobile_nav_menu:before{content:'MENU';position:absolute;right:33px;bottom:30px;color:#333;font-size:16px}#page-container #mobile_heading .mobile_nav.opened .mobile_menu_bar:before{content:'\4d';color:#d7332c}#page-container #mobile_heading .mobile_nav .mobile_menu_bar:before{color:#d7332c}#page-container #mobile_heading .et_mobile_menu{border-top:0}#page-container #mobile_heading .et_mobile_menu li{text-align:left!important}#page-container #mobile_heading .et_mobile_menu li li,.et_mobile_menu li ul{padding-left:0!important}#page-container #mobile_heading .et_mobile_menu{min-width:100vw;margin-left:0px!important;left:0px!important;position:absolute!important}#page-container #mobile_heading .et_mobile_menu{min-height:100vh!important;min-height:-webkit-fill-available;padding-top:50px!important}html{height:-webkit-fill-available}#page-container #mobile_heading .mobile_nav.opened .et_mobile_menu{display:block!important;padding-top:0px!important;top:64px}@media only screen and (max-width:780px){.gform_footer{float:left;position:relative;margin-top:0px!important;max-width:100%;min-width:100%}.gform_footer input[type="submit"]{width:100%;height:52px}}#et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::before,.et_pb_module.et_pb_menu .et_mobile_nav_menu .mobile_nav.opened .mobile_menu_bar::before{content:'d'}ul.et_mobile_menu li.menu-item-has-children .mobile-toggle,ul.et_mobile_menu li.page_item_has_children .mobile-toggle,.et-db #et-boc .et-l ul.et_mobile_menu li.menu-item-has-children .mobile-toggle,.et-db #et-boc .et-l ul.et_mobile_menu li.page_item_has_children .mobile-toggle{width:44px;height:100%;padding:0px!important;max-height:44px;border:none;position:absolute;right:0px;top:0px;z-index:999;background-color:#ffffff;border-left:1px solid rgba(0,0,0,.03)}ul.et_mobile_menu>li.menu-item-has-children,ul.et_mobile_menu>li.page_item_has_children,ul.et_mobile_menu>li.menu-item-has-children .sub-menu li.menu-item-has-children,.et-db #et-boc .et-l ul.et_mobile_menu>li.menu-item-has-children,.et-db #et-boc .et-l ul.et_mobile_menu>li.page_item_has_children,.et-db #et-boc .et-l ul.et_mobile_menu>li.menu-item-has-children .sub-menu li.menu-item-has-children{position:relative}.et_mobile_menu .menu-item-has-children>a,.et-db #et-boc .et-l .et_mobile_menu .menu-item-has-children>a{background-color:transparent}ul.et_mobile_menu .menu-item-has-children .sub-menu,#main-header ul.et_mobile_menu .menu-item-has-children .sub-menu,.et-db #et-boc .et-l ul.et_mobile_menu .menu-item-has-children .sub-menu,.et-db #main-header ul.et_mobile_menu .menu-item-has-children .sub-menu{display:none!important;visibility:hidden!important}ul.et_mobile_menu .menu-item-has-children .sub-menu.visible,#main-header ul.et_mobile_menu .menu-item-has-children .sub-menu.visible,.et-db #et-boc .et-l ul.et_mobile_menu .menu-item-has-children .sub-menu.visible,.et-db #main-header ul.et_mobile_menu .menu-item-has-children .sub-menu.visible{display:block!important;visibility:visible!important;padding-left:10px!important}ul.et_mobile_menu li.menu-item-has-children .mobile-toggle,.et-db #et-boc .et-l ul.et_mobile_menu li.menu-item-has-children .mobile-toggle{text-align:center;opacity:1}ul.et_mobile_menu li.menu-item-has-children .mobile-toggle::after,.et-db #et-boc .et-l ul.et_mobile_menu li.menu-item-has-children .mobile-toggle::after{top:10px;position:relative;font-family:"Font Awesome 5 Free"!important;font-size:20px!important;font-weight:900;content:'\f078';color:#d7332c;background:#fff;border-radius:50%;padding:3px}ul.et_mobile_menu li.menu-item-has-children.dt-open>.mobile-toggle::after,.et-db #et-boc .et-l ul.et_mobile_menu li.menu-item-has-children.dt-open>.mobile-toggle::after{content:'\f077'}.et_pb_menu_0.et_pb_menu .et_mobile_menu:after{position:absolute;right:5%;margin-left:-20px;top:-14px;width:0;height:0;content:'';border-left:20px solid transparent;border-right:20px solid transparent;border-bottom:20px solid #ffffff}.et_pb_menu_0.et_pb_menu .et_mobile_menu,.et_pb_menu_0.et_pb_menu .et_mobile_menu ul{background-color:#ffffff!important;border-radius:10px}#mobile_heading #main_row .et_pb_column{margin-bottom:0px!important}#slogan p{text-transform:uppercase;font-weight:700}#slogan strong{color:#d7332c}#header_home{position:relative}#header_home:before{content:"";background:transparent linear-gradient(180deg,#00000000 0%,#0000008c 100%) 0% 0% no-repeat padding-box;top:0px;bottom:0px;right:0px;left:0px;position:absolute;z-index:2;transition:all 0.6s ease-in-out;opacity:0.8}.wp-video-shortcode{border-radius:15px;overflow:hidden;margin:20px 0px;background:transparent!important;box-shadow:0px 10px 20px #28282829}#page-container .mogelijkheden_links li,#page-container .mogelijkheden_links a{list-style-type:none!important;font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:300;font-size:16px;line-height:29px;color:#FFF!important}.mogelijkheden_links{padding:0px!important}.adresgegevens{}.adresgegevens br{display:none}.adresgegevens em{float:left;width:fit-content}.adresgegevens strong{float:left;width:91px;clear:left}#icon_section .et_pb_blurb_content{display:flex;flex-direction:column;height:100%}#icon_section .et_pb_blurb_content .et_pb_blurb_container{margin-top:auto}#icon_section .et_pb_blurb_content h4{margin-top:auto;margin-bottom:0px;padding:0px}#icon_section .et_pb_blurb{display:flex;height:100%}.calculator input,.calculator label{color:black!important}.calculator input{background-color:#FFF;border:1px solid #F2F2F2;border-radius:99px;padding:0px 20px!important;height:52px}#inhoud_machines .wp-video-shortcode{margin-top:0px!important}#calculator{color:#FFF}#calculator label,#calculator .gfield_description{color:#FFF!important}#calculator input{border-radius:5px;border:0px;background:linear-gradient(89deg,#23232378 0%,#1f1f1f96 100%)!important;color:#ffffff94!important;font-weight:bold;font-size:20px}#calculator input{}#calculator input::placeholder{color:#FFF!important}#calculator input[type="submit"]{background-color:#ad1129!important;color:white!important;display:none}#calculator .gform_wrapper.gravity-theme .gf_progressbar_percentage{height:30px;text-align:right;vertical-align:middle;border-radius:8px 0px 0px 8px!important;align-items:center!important;display:grid}#calculator .gform_wrapper.gravity-theme .gf_progressbar_percentage.percentbar_100{border-radius:8px!important}#calculator .gform_wrapper.gravity-theme .gf_progressbar_title{font-size:12.992px;font-weight:400;color:#767676;margin:0 0 4.8px 0;text-align:center;color:white;font-size:20px;margin-bottom:10px}#calculator .gform_next_button{background:white!important;color:#ad1029!important}#slogan_button_holder .et_pb_button_module_wrapper{margin-left:auto}.over_ons_new .focus_double_ul li{list-style-type:none;display:flex;gap:0px!important;align-items:baseline!important;flex-direction:column;padding-left:20px;position:relative}.over_ons_new .focus_double_ul li{font-weight:bold}.over_ons_new .focus_double_ul li:before{position:absolute!important;left:0px;top:6px}.over_ons_new .focus_double_ul li ul li:before{display:none}.over_ons_new .focus_double_ul li ul li{padding-left:0px;font-weight:normal}.page-title{font-size:20px;color:black;max-width:128px;margin-top:auto;margin-bottom:auto}.info-column:first-child{display:flex;gap:20px;flex-wrap:wrap}.page-title{font-size:20px;color:black;max-width:137px;margin-top:auto;margin-bottom:auto;font-weight:bold}.properties p{font-size:16px;margin-top:5px}.machine-usp{display:flex;gap:20px;font-size:14px;color:#757575;justify-content:space-between;width:100%}.machine-usp p{display:flex;gap:5px;align-content:center}.machine-usp p:before{content:"";background-image:url(/wp-content/uploads/2024/02/check-grebex.svg);width:16px;height:11px;position:relative;display:flex;margin-top:auto;margin-bottom:auto}.info-columns{margin-right:auto;display:flex;flex-direction:column;flex-wrap:wrap;gap:15px}.properties{display:flex;gap:50px;font-size:16px;color:black}.property h4{margin-bottom:0px;padding-bottom:0px;color:black;font-weight:bold}.property{background:transparent linear-gradient(90deg,#FFFFFF 0%,#FFFFFF00 100%) 0% 0% no-repeat padding-box;border-radius:5px;padding:15px;min-height:85px;display:grid;align-items:center}.container-machine-info{display:flex;gap:20px;padding:40px;padding-bottom:20px}.download-button{margin-left:50px}.download-button a{background:#D7332C;color:white;min-height:50px;display:grid;align-items:center;padding:0px 20px;border-radius:99px;font-size:16px;margin-left:auto;font-weight:bold}#information_machine_row:before{content:"";background:#F4F4F4;position:absolute;inset:0px;width:40%;border-radius:0px 99px 99px 0px}.swiper-button-next,.swiper-button-prev{background-color:black;width:50px;height:50px;border-radius:99px}.swiper-button-next:after,.swiper-button-prev:after{font-size:20px;font-weight:bold;color:white}.mySwiper2 img{height:330px!important;border-radius:15px;width:100%;object-fit:cover}.mySwiper{margin-top:20px}.mySwiper img{height:100px;width:100%;object-fit:cover;border-radius:15px}.machine_probleem ul li{margin-bottom:10px}.machine_probleem ul li strong{font-weight:500}.three .machine-usp{justify-content:center!important}body #page-container #et-boc .et_pb_menu_0_tb_header.et_pb_menu ul li:hover>a,.et_pb_menu_0_tb_header.et_pb_menu ul li.mega-menu.current-menu-item a{color:black!important}body #page-container #et-boc .current-page-grebex a{color:#d7332c!important}@media only screen and (min-width:768px){#page-container #et-boc img.wpml-ls-flag{width:20px!important;height:20px!important}#page-container #et-boc .wpml-ls-item ul.sub-menu{border-top:0px!important;background-color:#00000059!important;backdrop-filter:blur(10px);border-radius:0px}#page-container #et-boc .wpml-ls-item .wpml-ls-display,#page-container #et-boc .wpml-ls-item a:after{color:black!important}#page-container #et-boc .wpml-ls-item ul.sub-menu span{color:white!important}#page-container #et-boc .wpml-ls-item *{width:fit-content!important}#page-container #et-boc .wpml-ls-item li{padding-right:50px}#page-container #et-boc .wpml-ls-item ul.sub-menu li:hover span{color:white!important}}.lwp-hide-mobile-menu.et_pb_menu .et_pb_menu__menu,.lwp-hide-mobile-menu.et_pb_fullwidth_menu .et_pb_menu__menu{display:flex!important}.lwp-hide-mobile-menu .et_mobile_nav_menu{display:none}#page-container #mobile_heading .et_mobile_nav_menu:before{}</style><link rel='stylesheet' id='gform_basic-css' href='https://grebex.nl/wp-content/plugins/gravityforms/css/basic.min.css?ver=2.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_ie11-css' href='https://grebex.nl/wp-content/plugins/gravityforms/css/theme-ie11.min.css?ver=2.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://grebex.nl/wp-content/plugins/gravityforms/css/theme.min.css?ver=2.5.8' type='text/css' media='all' />
+<link rel='stylesheet' id='et-builder-googlefonts-css' href='https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;subset=latin,latin-ext&#038;display=swap' type='text/css' media='all' />
+
+</head>
+<body class="error404 wp-theme-Divi wp-child-theme-vdberg et-tb-has-template et-tb-has-header et-tb-has-footer et_pb_button_helper_class et_cover_background et_pb_gutter et_pb_gutters3 et_right_sidebar et_divi_theme et-db">
+	<div id="page-container">
+<div id="et-boc" class="et-boc">
+			
+		<header class="et-l et-l--header">
+			<div class="et_builder_inner_content et_pb_gutters3">
+		<div id="berg_top_heading" class="et_pb_section et_pb_section_0_tb_header et_section_regular" >
+				
+				
+				
+				
+					<div id="main_row" class="et_pb_row et_pb_row_0_tb_header et_pb_equal_columns et_pb_row--with-menu">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_0_tb_header  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0_tb_header">
+				
+				
+				<a href="https://grebex.nl/"><span class="et_pb_image_wrap "><img decoding="async" width="2101" height="614" src="https://grebex.nl/wp-content/uploads/2024/10/Logo_GREBEX_DEF-cut.png" alt="" title="Logo_GREBEX_DEF-cut" srcset="https://grebex.nl/wp-content/uploads/2024/10/Logo_GREBEX_DEF-cut.png 2101w, https://grebex.nl/wp-content/uploads/2024/10/Logo_GREBEX_DEF-cut-1280x374.png 1280w, https://grebex.nl/wp-content/uploads/2024/10/Logo_GREBEX_DEF-cut-980x286.png 980w, https://grebex.nl/wp-content/uploads/2024/10/Logo_GREBEX_DEF-cut-480x140.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2101px, 100vw" class="wp-image-2684" /></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_3_4 et_pb_column_1_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column--with-menu" id="nav_row">
+				
+				
+				<div id="berg_nav" class="et_pb_module et_pb_menu et_pb_menu_0_tb_header et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-hoofd-navigatie" class="et-menu nav"><li class="et_pb_menu_page_id-home menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-62"><a href="https://grebex.nl/">Home</a></li>
+<li class="mega-menu et_pb_menu_page_id-451 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-451"><a href="/#machines">Machines</a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-1 menu-item menu-item-type-gs_sim menu-item-object-gs_sim menu-item-433"><div class="sub_menu_wrapper"><div class="sub_menu_item"><a href="https://grebex.nl/machines/metaloader/"><div class="sub-menu-name">MetaLoader</div></a><div class="sub_menu_image"><img width="1280" height="1920" src="https://grebex.nl/wp-content/uploads/2021/10/20-Visulions-MDC02035.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://grebex.nl/wp-content/uploads/2021/10/20-Visulions-MDC02035.jpg 1280w, https://grebex.nl/wp-content/uploads/2021/10/20-Visulions-MDC02035-980x1470.jpg 980w, https://grebex.nl/wp-content/uploads/2021/10/20-Visulions-MDC02035-480x720.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1280px, 100vw" /></div></div><div class="sub_menu_item"><a href="https://grebex.nl/machines/mpl950/"><div class="sub-menu-name">MPL950</div></a><div class="sub_menu_image"><img width="2400" height="1600" src="https://grebex.nl/wp-content/uploads/2021/10/IMG_6749.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://grebex.nl/wp-content/uploads/2021/10/IMG_6749.jpg 2400w, https://grebex.nl/wp-content/uploads/2021/10/IMG_6749-1280x853.jpg 1280w, https://grebex.nl/wp-content/uploads/2021/10/IMG_6749-980x653.jpg 980w, https://grebex.nl/wp-content/uploads/2021/10/IMG_6749-480x320.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2400px, 100vw" /></div></div><div class="sub_menu_item"><a href="https://grebex.nl/machines/pc1750/"><div class="sub-menu-name">PC1750</div></a><div class="sub_menu_image"><img width="2560" height="1441" src="https://grebex.nl/wp-content/uploads/2021/10/IMG_20240426_152048-scaled.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://grebex.nl/wp-content/uploads/2021/10/IMG_20240426_152048-scaled.jpg 2560w, https://grebex.nl/wp-content/uploads/2021/10/IMG_20240426_152048-1280x721.jpg 1280w, https://grebex.nl/wp-content/uploads/2021/10/IMG_20240426_152048-980x552.jpg 980w, https://grebex.nl/wp-content/uploads/2021/10/IMG_20240426_152048-480x270.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2560px, 100vw" /></div></div><div class="sub_menu_item"><a href="https://grebex.nl/machines/rt900/"><div class="sub-menu-name">RT900</div></a><div class="sub_menu_image"><img width="1500" height="1000" src="https://grebex.nl/wp-content/uploads/2021/10/Foto-1.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://grebex.nl/wp-content/uploads/2021/10/Foto-1.jpeg 1500w, https://grebex.nl/wp-content/uploads/2021/10/Foto-1-1280x853.jpeg 1280w, https://grebex.nl/wp-content/uploads/2021/10/Foto-1-980x653.jpeg 980w, https://grebex.nl/wp-content/uploads/2021/10/Foto-1-480x320.jpeg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1500px, 100vw" /></div></div><div class="sub_menu_item"><a href="https://grebex.nl/machines/cs320/"><div class="sub-menu-name">CS320</div></a><div class="sub_menu_image"><img width="1600" height="900" src="https://grebex.nl/wp-content/uploads/2021/10/Crate-stacker6.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://grebex.nl/wp-content/uploads/2021/10/Crate-stacker6.jpeg 1600w, https://grebex.nl/wp-content/uploads/2021/10/Crate-stacker6-1280x720.jpeg 1280w, https://grebex.nl/wp-content/uploads/2021/10/Crate-stacker6-980x551.jpeg 980w, https://grebex.nl/wp-content/uploads/2021/10/Crate-stacker6-480x270.jpeg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 1600px, 100vw" /></div></div><div class="sub_menu_item"><a href="https://grebex.nl/machines/automatiseren/"><div class="sub-menu-name">Klantspecifieke automatisering</div></a><div class="sub_menu_image"><img width="2400" height="1600" src="https://grebex.nl/wp-content/uploads/2021/10/IMG_6820.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" srcset="https://grebex.nl/wp-content/uploads/2021/10/IMG_6820.jpg 2400w, https://grebex.nl/wp-content/uploads/2021/10/IMG_6820-1280x853.jpg 1280w, https://grebex.nl/wp-content/uploads/2021/10/IMG_6820-980x653.jpg 980w, https://grebex.nl/wp-content/uploads/2021/10/IMG_6820-480x320.jpg 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2400px, 100vw" /></div></div></div></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-37 menu-item menu-item-type-post_type menu-item-object-page menu-item-45"><a href="https://grebex.nl/onze-klanten/">Onze klanten</a></li>
+<li class="et_pb_menu_page_id-39 menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="https://grebex.nl/over-ons/">Over ons</a></li>
+<li class="et_pb_menu_page_id-41 menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="https://grebex.nl/contact/">Contact</a></li>
+<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-nl wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-3-nl"><a href="https://grebex.nl/" title="NL"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/nl.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-display">NL</span></a>
+<ul class="sub-menu">
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-en"><a href="https://grebex.nl/en/" title="EN"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-display">EN</span></a></li>
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-fr wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-fr"><a href="https://grebex.nl/fr/" title="FR"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-display">FR</span></a></li>
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-de wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-de"><a href="https://grebex.nl/de/" title="DE"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-display">DE</span></a></li>
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-it wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-it"><a href="https://grebex.nl/it/" title="IT"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-display">IT</span></a></li>
+	<li class="menu-item wpml-ls-slot-3 wpml-ls-item wpml-ls-item-sv wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-3-sv"><a href="https://grebex.nl/sv/" title="SV"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/sv.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-display">SV</span></a></li>
+</ul>
+</li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+				
+				
+			</div>
+				
+				
+			</div><div id="mobile_heading" class="et_pb_section et_pb_section_1_tb_header et_section_regular" >
+				
+				
+				
+				
+					<div id="main_row" class="et_pb_row et_pb_row_1_tb_header et_pb_equal_columns et_pb_row--with-menu">
+				<div class="et_pb_column et_pb_column_1_4 et_pb_column_2_tb_header  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_1_tb_header">
+				
+				
+				<a href="https://grebex.nl/"><span class="et_pb_image_wrap "><img decoding="async" width="2482" height="967" src="https://grebex.nl/wp-content/uploads/2022/05/Logo_GREBEX_DEF.png" alt="" title="Logo_GREBEX_DEF" srcset="https://grebex.nl/wp-content/uploads/2022/05/Logo_GREBEX_DEF.png 2482w, https://grebex.nl/wp-content/uploads/2022/05/Logo_GREBEX_DEF-1280x499.png 1280w, https://grebex.nl/wp-content/uploads/2022/05/Logo_GREBEX_DEF-980x382.png 980w, https://grebex.nl/wp-content/uploads/2022/05/Logo_GREBEX_DEF-480x187.png 480w" sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2482px, 100vw" class="wp-image-715" /></span></a>
+			</div>
+			</div><div class="et_pb_column et_pb_column_3_4 et_pb_column_3_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child et_pb_column--with-menu" id="nav_row">
+				
+				
+				<div class="et_pb_module et_pb_menu et_pb_menu_1_tb_header et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-mobile-navigatie" class="et-menu nav"><li id="menu-item-452" class="et_pb_menu_page_id-home menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-452"><a href="https://grebex.nl/">Home</a></li>
+<li id="menu-item-500" class="et_pb_menu_page_id-500 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-500"><a href="/#machines">Machines</a>
+<ul class="sub-menu">
+	<li id="menu-item-1188" class="et_pb_menu_page_id-1173 menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"><a href="https://grebex.nl/klantspecifieke-automatisering/">Klantspecifieke automatisering</a></li>
+	<li id="menu-item-459" class="et_pb_menu_page_id-75 menu-item menu-item-type-post_type menu-item-object-machines menu-item-459"><a href="https://grebex.nl/machines/cs320/">CS320</a></li>
+	<li id="menu-item-460" class="et_pb_menu_page_id-248 menu-item menu-item-type-post_type menu-item-object-machines menu-item-460"><a href="https://grebex.nl/machines/metaloader/">MetaLoader</a></li>
+	<li id="menu-item-461" class="et_pb_menu_page_id-249 menu-item menu-item-type-post_type menu-item-object-machines menu-item-461"><a href="https://grebex.nl/machines/mpl950/">MPL950</a></li>
+	<li id="menu-item-462" class="et_pb_menu_page_id-246 menu-item menu-item-type-post_type menu-item-object-machines menu-item-462"><a href="https://grebex.nl/machines/pc1750/">PC1750</a></li>
+	<li id="menu-item-463" class="et_pb_menu_page_id-247 menu-item menu-item-type-post_type menu-item-object-machines menu-item-463"><a href="https://grebex.nl/machines/rt900/">RT900</a></li>
+</ul>
+</li>
+<li id="menu-item-455" class="et_pb_menu_page_id-37 menu-item menu-item-type-post_type menu-item-object-page menu-item-455"><a href="https://grebex.nl/onze-klanten/">Onze klanten</a></li>
+<li id="menu-item-456" class="et_pb_menu_page_id-39 menu-item menu-item-type-post_type menu-item-object-page menu-item-456"><a href="https://grebex.nl/over-ons/">Over ons</a></li>
+<li id="menu-item-454" class="et_pb_menu_page_id-41 menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="https://grebex.nl/contact/">Contact</a></li>
+<li id="menu-item-wpml-ls-9-nl" class="menu-item wpml-ls-slot-9 wpml-ls-item wpml-ls-item-nl wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-9-nl"><a href="https://grebex.nl/" title="NL"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/nl.svg"
+            alt=""
+            width=20
+            height=20
+    /><span class="wpml-ls-native" lang="nl">NL</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-wpml-ls-9-en" class="menu-item wpml-ls-slot-9 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-9-en"><a href="https://grebex.nl/en/" title="EN"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg"
+            alt=""
+            width=20
+            height=20
+    /><span class="wpml-ls-native" lang="en">EN</span></a></li>
+	<li id="menu-item-wpml-ls-9-fr" class="menu-item wpml-ls-slot-9 wpml-ls-item wpml-ls-item-fr wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-9-fr"><a href="https://grebex.nl/fr/" title="FR"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.svg"
+            alt=""
+            width=20
+            height=20
+    /><span class="wpml-ls-native" lang="fr">FR</span></a></li>
+	<li id="menu-item-wpml-ls-9-de" class="menu-item wpml-ls-slot-9 wpml-ls-item wpml-ls-item-de wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-9-de"><a href="https://grebex.nl/de/" title="DE"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.svg"
+            alt=""
+            width=20
+            height=20
+    /><span class="wpml-ls-native" lang="de">DE</span></a></li>
+	<li id="menu-item-wpml-ls-9-it" class="menu-item wpml-ls-slot-9 wpml-ls-item wpml-ls-item-it wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-9-it"><a href="https://grebex.nl/it/" title="IT"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.svg"
+            alt=""
+            width=20
+            height=20
+    /><span class="wpml-ls-native" lang="it">IT</span></a></li>
+	<li id="menu-item-wpml-ls-9-sv" class="menu-item wpml-ls-slot-9 wpml-ls-item wpml-ls-item-sv wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-9-sv"><a href="https://grebex.nl/sv/" title="SV"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/sv.svg"
+            alt=""
+            width=20
+            height=20
+    /><span class="wpml-ls-native" lang="sv">SV</span></a></li>
+</ul>
+</li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div><div class="et_pb_module et_pb_menu et_pb_menu_2_tb_header lwp-hide-mobile-menu et_pb_bg_layout_light  et_pb_text_align_left et_dropdown_animation_fade et_pb_menu--without-logo et_pb_menu--style-left_aligned">
+					
+					
+					<div class="et_pb_menu_inner_container clearfix">
+						
+						<div class="et_pb_menu__wrap">
+							<div class="et_pb_menu__menu">
+								<nav class="et-menu-nav"><ul id="menu-language-knop" class="et-menu nav"><li id="menu-item-wpml-ls-42-nl" class="menu-item wpml-ls-slot-42 wpml-ls-item wpml-ls-item-nl wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-42-nl"><a href="https://grebex.nl/" title="NL"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/nl.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-native" lang="nl">NL</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-wpml-ls-42-en" class="menu-item wpml-ls-slot-42 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-42-en"><a href="https://grebex.nl/en/" title="EN"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-native" lang="en">EN</span></a></li>
+	<li id="menu-item-wpml-ls-42-fr" class="menu-item wpml-ls-slot-42 wpml-ls-item wpml-ls-item-fr wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-42-fr"><a href="https://grebex.nl/fr/" title="FR"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-native" lang="fr">FR</span></a></li>
+	<li id="menu-item-wpml-ls-42-de" class="menu-item wpml-ls-slot-42 wpml-ls-item wpml-ls-item-de wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-42-de"><a href="https://grebex.nl/de/" title="DE"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-native" lang="de">DE</span></a></li>
+	<li id="menu-item-wpml-ls-42-it" class="menu-item wpml-ls-slot-42 wpml-ls-item wpml-ls-item-it wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-42-it"><a href="https://grebex.nl/it/" title="IT"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/it.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-native" lang="it">IT</span></a></li>
+	<li id="menu-item-wpml-ls-42-sv" class="menu-item wpml-ls-slot-42 wpml-ls-item wpml-ls-item-sv wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-42-sv"><a href="https://grebex.nl/sv/" title="SV"><img decoding="async"
+            class="wpml-ls-flag"
+            src="https://grebex.nl/wp-content/plugins/sitepress-multilingual-cms/res/flags/sv.svg"
+            alt=""
+            width=30
+            height=30
+    /><span class="wpml-ls-native" lang="sv">SV</span></a></li>
+</ul>
+</li>
+</ul></nav>
+							</div>
+							
+							
+							<div class="et_mobile_nav_menu">
+				<div class="mobile_nav closed">
+					<span class="mobile_menu_bar"></span>
+				</div>
+			</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+				
+				
+			</div>
+				
+				
+			</div><div id="slogan_button_holder" class="et_pb_section et_pb_section_2_tb_header et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_2_tb_header">
+				<div class="et_pb_column et_pb_column_4_4 et_pb_column_4_tb_header  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div id="slogan" class="et_pb_module et_pb_text et_pb_text_0_tb_header  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><p>Creating<strong> smart automation</strong></p></div>
+			</div>
+			</div>
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</header>
+	<div id="et-main-area">
+	
+<div id="main-content">
+	<div class="container">
+		<div id="content-area" class="clearfix">
+			<div id="left-area">
+				<article id="post-0" class="et_pb_post not_found post-1 post type-post status-publish format-standard hentry category-geen-onderdeel-van-een-categorie">
+					<div class="entry">
+	<h1 class="not-found-title">Geen Resultaten Gevonden</h1>
+	<p>De pagina die u zocht kon niet gevonden worden. Probeer uw zoekopdracht te verfijnen of gebruik de bovenstaande navigatie om deze post te vinden.</p>
+</div>
+				</article>
+			</div>
+
+				<div id="sidebar">
+		<div id="block-2" class="et_pb_widget widget_block widget_search"><form role="search" method="get" action="https://grebex.nl/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" >Zoeken</label><div class="wp-block-search__inside-wrapper" ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="Zoeken" class="wp-block-search__button wp-element-button" type="submit" >Zoeken</button></div></form></div><div id="block-3" class="et_pb_widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Posts</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="https://grebex.nl/hello-world/">Hello world!</a></li>
+</ul></div></div></div><div id="block-4" class="et_pb_widget widget_block"><div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow"><h2 class="wp-block-heading">Recent Comments</h2><ol class="wp-block-latest-comments"><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="https://wordpress.org/">A WordPress Commenter</a> op <a class="wp-block-latest-comments__comment-link" href="https://grebex.nl/hello-world/#comment-1">Hello world!</a></footer></article></li></ol></div></div></div>	</div>
+		</div>
+	</div>
+</div>
+
+	<footer class="et-l et-l--footer">
+			<div class="et_builder_inner_content et_pb_gutters3"><div id="new_footer_item" class="et_pb_section et_pb_section_0_tb_footer et_pb_with_background et_section_regular" >
+				
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0_tb_footer et_pb_equal_columns">
+				<div class="et_pb_column et_pb_column_1_2 et_pb_column_0_tb_footer  et_pb_css_mix_blend_mode_passthrough">
+				
+				
+				<div class="et_pb_module et_pb_text et_pb_text_0_tb_footer  et_pb_text_align_left et_pb_bg_layout_light">
+				
+				
+				<div class="et_pb_text_inner"><h2>CREATING <strong>SMART AUTOMATION</strong></h2></div>
+			</div>
+			</div><div class="et_pb_column et_pb_column_1_2 et_pb_column_1_tb_footer  et_pb_css_mix_blend_mode_passthrough et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_image et_pb_image_0_tb_footer">
+				
+				
+				<span class="et_pb_image_wrap "><img loading="lazy" decoding="async" width="567" height="187" src="https://grebex.nl/wp-content/uploads/2021/10/metaalunie.jpeg" alt="" title="metaalunie" srcset="https://grebex.nl/wp-content/uploads/2021/10/metaalunie.jpeg 567w, https://grebex.nl/wp-content/uploads/2021/10/metaalunie-480x158.jpeg 480w" sizes="auto, (min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 567px, 100vw" class="wp-image-23" /></span>
+			</div>
+			</div>
+				
+				
+			</div>
+				
+				
+			</div>		</div>
+	</footer>
+		</div>
+
+			
+		</div>
+		</div>
+
+			<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/vdberg/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+    <style>
+        /* Styles for the overlay and popup */
+        #custom-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 9998; }
+        #custom-popup { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: #f4f4f4; padding: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); z-index: 9999; border-radius: 15px; }
+        #custom-popup .close-btn { position: absolute; top: 10px; right: 10px; cursor: pointer; background: #ccc; padding: 5px 10px; border: none; }
+    </style>
+    <div id="custom-overlay"></div>
+    <div id="custom-popup">
+        <button class="close-btn">X</button>
+        <div class="form_inner">
+            <h2>Bereken uw verdienmodel op de MetaLoader</h2>
+            <script type="text/javascript">if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0});var gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),null==t&&(t=10),gform.hooks[o][n].push({tag:i,callable:r,priority:t})},doHook:function(o,n,r){if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[o][n]){var t,i=gform.hooks[o][n];i.sort(function(o,n){return o.priority-n.priority});for(var e=0;e<i.length;e++)"function"!=typeof(t=i[e].callable)&&(t=window[t]),"action"==o?t.apply(null,r):r[0]=t.apply(null,r)}if("filter"==o)return r[0]},removeHook:function(o,n,r,t){if(null!=gform.hooks[o][n])for(var i=gform.hooks[o][n],e=i.length-1;0<=e;e--)null!=t&&t!=i[e].tag||null!=r&&r!=i[e].priority||i.splice(e,1)}}}</script>
+                <div class='gf_browser_unknown gform_wrapper gravity-theme calculator_wrapper' id='gform_wrapper_2' style='display:none'><div id='gf_2' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_2' id='gform_2' class='calculator' action='/wp-content/uploads/2023/06/Grebex-smart-automation-logo.png#gf_2' novalidate><div class='gf_invisible ginput_recaptchav3' data-sitekey='6Lf8_2EpAAAAAOGQyXy21aCeuFaidj9ce2wGVlOn' data-tabindex='0'><input id="input_c599f72f82d4a850e820b72105c86b2f" class="gfield_recaptcha_response" type="hidden" name="input_c599f72f82d4a850e820b72105c86b2f" value=""/></div>
+        <div id='gf_progressbar_wrapper_2' class='gf_progressbar_wrapper'>
+        	<p class="gf_progressbar_title">Stap <span class='gf_step_current_page'>1</span> van <span class='gf_step_page_count'>3</span>
+        	</p>
+            <div class='gf_progressbar gf_progressbar_custom' aria-hidden='true'>
+                <div class='gf_progressbar_percentage percentbar_custom percentbar_33' style='width:33%; color:#fff; background-color:#5C1D1A;'><span>33%</span></div>
+            </div></div>
+                        <div class='gform_body gform-body'><div id='gform_page_2_1' class='gform_page' >
+                                    <div class='gform_page_fields'><div id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below'><div id="field_2_4" class="gfield gfield--width-half field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_4' >Product breedte (mm)</label><div class='ginput_container ginput_container_number'><input name='input_4' id='input_2_4' type='number' step='any'   value='' class='large'      aria-invalid="false"  /></div></div><div id="field_2_21" class="gfield gfield--width-half field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_21' >Product lengte (mm)</label><div class='ginput_container ginput_container_number'><input name='input_21' id='input_2_21' type='number' step='any'   value='' class='large'      aria-invalid="false"  /></div></div><div id="field_2_2" class="gfield gfield--width-full field_sublabel_below field_description_above gfield_visibility_visible" ><label class='gfield_label' for='input_2_2' >Product hoogte (mm)</label><div class='gfield_description' id='gfield_description_2_2'>Minimaal 11</div><div class='ginput_container ginput_container_number'><input name='input_2' id='input_2_2' type='number' step='any'   value='11' class='large'      aria-invalid="false" aria-describedby="gfield_description_2_2" /></div></div><div id="field_2_5" class="gfield gfield--width-full field_sublabel_below field_description_above gfield_visibility_visible" ><label class='gfield_label' for='input_2_5' >Cyclustijd product (sec)</label><div class='ginput_container ginput_container_number'><input name='input_5' id='input_2_5' type='number' step='any'   value='' class='large'      aria-invalid="false"  /></div></div><div id="field_2_6" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_6' >Uurtarief bewerkingscentrum</label><div class='ginput_container ginput_container_number'><input name='input_6' id='input_2_6' type='text' step='any'   value='' class='large'      aria-invalid="false"  /></div></div><div id="field_2_38" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_38' >Uurtarief automatisering</label><div class='ginput_container ginput_container_number'><input name='input_38' id='input_2_38' type='text' step='any'   value='' class='large'      aria-invalid="false"  /></div></div><div id="field_2_7" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_7' >Tarief complete set</label><div class='ginput_container ginput_container_number'><input name='input_7' id='input_2_7' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_8" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_8' >Aantal te bewerken producten</label><div class='ginput_container ginput_container_number'><input name='input_8' id='input_2_8' type='number' step='any'   value='' class='large'      aria-invalid="false"  /></div></div></div>
+                    </div>
+                    <div class='gform_page_footer top_label'>
+                         <input type='button' id='gform_next_button_2_43' class='gform_next_button button' value='Volgende'  onclick='jQuery("#gform_target_page_number_2").val("2");  jQuery("#gform_2").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_2").val("2");  jQuery("#gform_2").trigger("submit",[true]); } ' /> 
+                    </div>
+                </div>
+                <div id='gform_page_2_2' class='gform_page' style='display:none;'>
+                    <div class='gform_page_fields'>
+                        <div id='gform_fields_2_2' class='gform_fields top_label form_sublabel_below description_below'><div id="field_2_12" class="gfield gsection field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><h3 class="gsection_title">Vaste gegevens</h3></div><div id="field_2_10" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_10' >Investering</label><div class='ginput_container ginput_container_number'><input name='input_10' id='input_2_10' type='number' step='any'   value='1000000' class='large'      aria-invalid="false"  /></div></div><div id="field_2_14" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_14' >Lade grote (breedte)</label><div class='ginput_container ginput_container_number'><input name='input_14' id='input_2_14' type='number' step='any'   value='480' class='large'      aria-invalid="false"  /></div></div><div id="field_2_15" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_15' >Lade grote (lengte)</label><div class='ginput_container ginput_container_number'><input name='input_15' id='input_2_15' type='number' step='any'   value='680' class='large'      aria-invalid="false"  /></div></div><div id="field_2_16" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_16' >Extra vrije ruimte om product</label><div class='ginput_container ginput_container_number'><input name='input_16' id='input_2_16' type='number' step='any'   value='20' class='large'      aria-invalid="false"  /></div></div><div id="field_2_17" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_17' >Lade dikte</label><div class='ginput_container ginput_container_number'><input name='input_17' id='input_2_17' type='number' step='any'   value='20' class='large'      aria-invalid="false"  /></div></div><div id="field_2_18" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_18' >Totale hoogte machine</label><div class='ginput_container ginput_container_number'><input name='input_18' id='input_2_18' type='number' step='any'   value='1440' class='large'      aria-invalid="false"  /></div></div><div id="field_2_20" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_20' >Lade steek theoretisch mogelijk</label><div class='ginput_container ginput_container_number'><input name='input_20' id='input_2_20' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div></div>
+                    </div>
+                    <div class='gform_page_footer top_label'>
+                        <input type='button' id='gform_previous_button_2_41' class='gform_previous_button button' value='Vorige'  onclick='jQuery("#gform_target_page_number_2").val("1");  jQuery("#gform_2").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_2").val("1");  jQuery("#gform_2").trigger("submit",[true]); } ' /> <input type='button' id='gform_next_button_2_41' class='gform_next_button button' value='Volgende'  onclick='jQuery("#gform_target_page_number_2").val("3");  jQuery("#gform_2").trigger("submit",[true]); ' onkeypress='if( event.keyCode == 13 ){ jQuery("#gform_target_page_number_2").val("3");  jQuery("#gform_2").trigger("submit",[true]); } ' /> 
+                    </div>
+                </div>
+                <div id='gform_page_2_3' class='gform_page' style='display:none;'>
+                    <div class='gform_page_fields'>
+                        <div id='gform_fields_2_3' class='gform_fields top_label form_sublabel_below description_below'><div id="field_2_23" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_23' >Aantal lades</label><div class='ginput_container ginput_container_number'><input name='input_23' id='input_2_23' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_26" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_26' >Totaal aantal producten</label><div class='ginput_container ginput_container_number'><input name='input_26' id='input_2_26' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_25" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_25' >Lade steek machine technisch</label><div class='ginput_container ginput_container_number'><input name='input_25' id='input_2_25' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_29" class="gfield gfield--width-half gfield_calculation field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_29' >Aantal producten X</label><div class='ginput_container ginput_container_number'><input name='input_29' id='input_2_29' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_34" class="gfield gfield--width-half gfield_calculation field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_34' >Aantal producten Y</label><div class='ginput_container ginput_container_number'><input name='input_34' id='input_2_34' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_11" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_11' >Total runtime in urenmet volle machine</label><div class='ginput_container ginput_container_number'><input name='input_11' id='input_2_11' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_30" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_2_30' >Aantal volledige machine vullingen</label><div class='ginput_container ginput_container_number'><input name='input_30' id='input_2_30' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_9" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_9' >Terugverdientijd</label><div class='ginput_container ginput_container_number'><input name='input_9' id='input_2_9' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_31" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_above gfield_visibility_visible" ><label class='gfield_label' for='input_2_31' >Totale productietijd (uren)</label><div class='gfield_description' id='gfield_description_2_31'>Volledig gevulde machine</div><div class='ginput_container ginput_container_number'><input name='input_31' id='input_2_31' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false" aria-describedby="gfield_description_2_31" /></div></div><div id="field_2_39" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_above gfield_visibility_visible" ><label class='gfield_label' for='input_2_39' >Totale productietijd (uren)</label><div class='gfield_description' id='gfield_description_2_39'>Op totaal aantal producten</div><div class='ginput_container ginput_container_number'><input name='input_39' id='input_2_39' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false" aria-describedby="gfield_description_2_39" /></div></div><div id="field_2_44" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_above gfield_visibility_visible" ><label class='gfield_label' for='input_2_44' >Totale omzet op complete serie</label><div class='ginput_container ginput_container_number'><input name='input_44' id='input_2_44' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_32" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_32' >Uurtarief om op 1 klus terug te verdienen</label><div class='ginput_container ginput_container_number'><input name='input_32' id='input_2_32' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div><div id="field_2_33" class="gfield gfield--width-full gfield_calculation field_sublabel_below field_description_below gfield_visibility_hidden" ><div class='admin-hidden-markup'><i class='gform-icon gform-icon--hidden'></i><span>Hidden</span></div><label class='gfield_label' for='input_2_33' >Terugverdientijd in jaren</label><div class='ginput_container ginput_container_number'><input name='input_33' id='input_2_33' type='text' step='any'   value='' class='large'  readonly="readonly"    aria-invalid="false"  /></div></div></div></div>
+        <div class='gform_page_footer top_label'><input type='submit' id='gform_previous_button_2' class='gform_previous_button button' value='Vorige'  onclick='if(window["gf_submitting_2"]){return false;}  if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_2"]){return false;} if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  jQuery("#gform_2").trigger("submit",[true]); }' /> <input type='submit' id='gform_submit_button_2' class='gform_button button' value='Versturen'  onclick='if(window["gf_submitting_2"]){return false;}  if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_2"]){return false;} if( !jQuery("#gform_2")[0].checkValidity || jQuery("#gform_2")[0].checkValidity()){window["gf_submitting_2"]=true;}  jQuery("#gform_2").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=2&amp;title=&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsImFhMmIyNTE2MTZlYTE4N2Y4NTE3NGYzY2FmZDIyY2NhIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='2' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </div></div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_2' id='gform_ajax_frame_2' title='Dit iframe bevat de vereiste logica om Ajax aangedreven Gravity Forms te verwerken.'></iframe>
+                <script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 2, 'https://grebex.nl/wp-content/plugins/gravityforms/images/spinner.svg' );jQuery('#gform_ajax_frame_2').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_2');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_2').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_2').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_2').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_2').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_2').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_2').val();gformInitSpinner( 2, 'https://grebex.nl/wp-content/plugins/gravityforms/images/spinner.svg' );jQuery(document).trigger('gform_page_loaded', [2, current_page]);window['gf_submitting_2'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_2').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_2').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [2]);window['gf_submitting_2'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_2').text());}, 50);}else{jQuery('#gform_2').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [2, current_page]);} );} ); 
+/* ]]> */
+</script>
+        </div>
+    </div>
+    <script>
+    jQuery(document).ready(function($) {
+        $('[id="open_form"]').on('click', function(event) {
+            event.preventDefault();
+            $('#custom-overlay, #custom-popup').fadeIn();
+        });
+        $('#custom-overlay, #custom-popup .close-btn').on('click', function() {
+            $('#custom-overlay, #custom-popup').fadeOut();
+        });
+    });
+    </script>
+    		<script type="application/javascript">
+			(function() {
+				var file     = ["https:\/\/grebex.nl\/wp-content\/et-cache\/notfound\/et-divi-dynamic-tb-25-tb-181-late.css"];
+				var handle   = document.getElementById('divi-style-parent-inline-inline-css');
+				var location = handle.parentNode;
+
+				if (0===document.querySelectorAll('link[href="' + file + '"]').length) {
+					var link  = document.createElement('link');
+					link.rel  = 'stylesheet';
+					link.id   = 'et-dynamic-late-css';
+					link.href = file;
+
+					location.insertBefore(link, handle.nextSibling);
+				}
+			})();
+		</script>
+		
+<script>
+jQuery(document).ready(function( $ ) {
+
+      $(document).on('touchstart click', ".reset_variations", function (event) {
+      $('.variable-items-wrapper').each(function (i, obj) {
+        $(this).find("li.variable-item").css("opacity","0.3");
+    });
+  });
+  
+    $(".variations select.bodycommerce-variation-raw-select").each(function(){
+        var select_name = $(this).attr("data-attribute_name");
+        var value = $(this).val();
+            $("."+select_name+" .variable-item").css("opacity","0.3");
+            $(this).closest(".value").find(".variable-item[data-value='"+value+"']").addClass("active");
+    });
+    $(".variable-item.outofstock").unbind("click");
+        $(".reset_variations").click(function() {
+            $(".variable-item").css("opacity","1");
+        });
+    });
+</script>
+
+<script>
+jQuery(document).ready(function(a){
+  a(document).on("click",".variable-item",function(){
+    a(this).closest(".variations").find(".variable-item").addClass("outofstock"),
+    a(this).closest(".variations_form").find(".variations select.bodycommerce-variation-raw-select option").each(function(){
+      var e=a(this).val();
+      a(this).closest(".variations_form").find(".variable-item[data-value='"+e+"']").removeClass("outofstock");
+      if(a(this).hasClass("enabled"))
+      var t="instock";
+      // else t="outofstock";
+      a(this).closest(".variations_form").find(".variable-item[data-value='"+e+"']").addClass(t)
+    })
+  })
+});
+</script>
+<script >
+    jQuery(function($) {
+        $(document).ready(function() {
+            $("body ul.et_mobile_menu li.menu-item-has-children, body ul.et_mobile_menu  li.page_item_has_children").append('<a href="#" class="mobile-toggle"></a>');
+            $('ul.et_mobile_menu li.menu-item-has-children .mobile-toggle, ul.et_mobile_menu li.page_item_has_children .mobile-toggle').click(function(event) {
+                event.preventDefault();
+                $(this).parent('li').toggleClass('dt-open');
+                $(this).parent('li').find('ul.children').first().toggleClass('visible');
+                $(this).parent('li').find('ul.sub-menu').first().toggleClass('visible');
+            });
+            iconFINAL = 'P';
+            $('body ul.et_mobile_menu li.menu-item-has-children, body ul.et_mobile_menu li.page_item_has_children').attr('data-icon', iconFINAL);
+            $('.mobile-toggle').on('mouseover', function() {
+                $(this).parent().addClass('is-hover');
+            }).on('mouseout', function() {
+                $(this).parent().removeClass('is-hover');
+            })
+        });
+    }); 
+</script>
+
+<script>
+jQuery(document).ready(function($) {
+    $('.info-columns').each(function() {
+        var $propertiesDiv = $(this).find('.properties').first();
+        var propertyCount = $propertiesDiv.find('.property').length;
+        var classNames = ['one', 'two', 'three', 'four', 'five', 'six'];
+        if (propertyCount > 0 && propertyCount <= 6) {
+            $(this).addClass(classNames[propertyCount - 1]);
+        }
+    });
+});
+	
+	jQuery(document).ready(function($) {
+    // Check if both buttons exist
+    if ($('.verdien_model_button').length && $('.download_folder_button').length) {
+        // Wrap them together
+        $('.verdien_model_button, .download_folder_button').wrapAll('<div class="button-wrapper"></div>');
+    }
+});
+
+	jQuery(document).ready(function($) {
+    var currentPathname = window.location.pathname.replace(/\/$/, ""); // Remove trailing slash
+    var currentHash = window.location.hash;
+    var currentUrl = currentPathname + currentHash;
+
+    $('#menu-hoofd-navigatie a').each(function() {
+        var linkPathname = this.pathname.replace(/\/$/, ""); // Remove trailing slash
+        var linkHash = this.hash;
+        var linkUrl = linkPathname + linkHash;
+
+        // Handle root paths
+        if (linkUrl === '') {
+            linkUrl = '/';
+        }
+        if (currentUrl === '') {
+            currentUrl = '/';
+        }
+
+        // Compare the current URL with the menu item's URL
+        if (linkUrl === currentUrl) {
+            // Add the class to the current menu item and its parent items
+            $(this).closest('li').addClass('current-page-grebex');
+            $(this).parents('li').addClass('current-page-grebex');
+        }
+    });
+});
+
+	
+	
+</script>
+<script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js" id="swiper-js-js"></script>
+<script type="text/javascript" id="divi-custom-script-js-extra">
+/* <![CDATA[ */
+var DIVI = {"item_count":"%d Item","items_count":"%d Items"};
+var et_builder_utils_params = {"condition":{"diviTheme":true,"extraTheme":false},"scrollLocations":["app","top"],"builderScrollLocations":{"desktop":"app","tablet":"app","phone":"app"},"onloadScrollLocation":"app","builderType":"fe"};
+var et_frontend_scripts = {"builderCssContainerPrefix":"#et-boc","builderCssLayoutPrefix":"#et-boc .et-l"};
+var et_pb_custom = {"ajaxurl":"https://grebex.nl/wp-admin/admin-ajax.php","images_uri":"https://grebex.nl/wp-content/themes/Divi/images","builder_images_uri":"https://grebex.nl/wp-content/themes/Divi/includes/builder/images","et_frontend_nonce":"0ea5922ab6","subscription_failed":"Kijk dan de onderstaande velden in om ervoor te zorgen u de juiste informatie.","et_ab_log_nonce":"3f4b2d8231","fill_message":"Alsjeblieft, vul op de volgende gebieden:","contact_error_message":"Gelieve de volgende fouten te verbeteren:","invalid":"Ongeldig e-mail","captcha":"Captcha","prev":"Vorig","previous":"Vorige","next":"Volgende","wrong_captcha":"U heeft het verkeerde nummer in de captcha ingevoerd.","wrong_checkbox":"Checkbox","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","ab_tests":[],"is_ab_testing_active":"","page_id":"1","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"yes","is_shortcode_tracking":"","tinymce_uri":""};
+var et_pb_box_shadow_elements = [];
+//# sourceURL=divi-custom-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/js/scripts.min.js?ver=4.11.2" id="divi-custom-script-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.11.2" id="fitvids-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-includes/js/comment-reply.min.js?ver=6.9.3" id="comment-reply-js" async="async" data-wp-strategy="async" fetchpriority="low"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?ver=4.11.2" id="jquery-mobile-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/hashchange.js?ver=4.11.2" id="hashchange-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js?ver=4.11.2" id="magnific-popup-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/easypiechart.js?ver=4.11.2" id="easypiechart-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/salvattore.js?ver=4.11.2" id="salvattore-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/plugins/divi-machine/scripts/frontend-bundle.min.js?ver=3.5.5.2.1" id="divi-machine-frontend-bundle-js"></script>
+<script type="text/javascript" id="gforms_recaptcha_recaptcha-js-extra">
+/* <![CDATA[ */
+var gforms_recaptcha_recaptcha_strings = {"site_key":"6Lf8_2EpAAAAAOGQyXy21aCeuFaidj9ce2wGVlOn","ajaxurl":"https://grebex.nl/wp-admin/admin-ajax.php","nonce":"0139f3b548"};
+//# sourceURL=gforms_recaptcha_recaptcha-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6Lf8_2EpAAAAAOGQyXy21aCeuFaidj9ce2wGVlOn&amp;ver=1.4.0" id="gforms_recaptcha_recaptcha-js"></script>
+<script type="text/javascript" id="gforms_recaptcha_recaptcha-js-after">
+/* <![CDATA[ */
+(function($){grecaptcha.ready(function(){$('.grecaptcha-badge').css('visibility','hidden');});})(jQuery);
+//# sourceURL=gforms_recaptcha_recaptcha-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/plugins/divi-machine/includes/modules/divi-ajax-filter/scripts/frontend-bundle.min.js?ver=1.6.4.0" id="divi-ajax-filter-frontend-bundle-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/core/admin/js/common.js?ver=4.11.2" id="et-core-common-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/plugins/divi-machine/scripts/frontend-general.min.js?ver=3.5.5.2.1" id="divi-machine-general-js-js"></script>
+<script type="text/javascript" id="divi-machine-general-js-js-after">
+/* <![CDATA[ */
+var filter_ajax_object = {"ajax_url":"https:\/\/grebex.nl\/wp-admin\/admin-ajax.php","ajax_pagination":true}
+//# sourceURL=divi-machine-general-js-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grebex.nl/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2026-02-17 15:25:51+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl"},"Notifications":["Meldingen"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+//# sourceURL=wp-a11y-js-translations
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grebex.nl/wp-includes/js/dist/a11y.min.js?ver=cb460b4676c94bd228ed" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://grebex.nl/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.5.8" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"Januari","february":"Februari","march":"Maart","april":"April","may":"Mei","june":"Juni","july":"Juli","august":"Augustus","september":"September","october":"Oktober","november":"November","december":"December"},"firstDay":1}};
+var gf_global = {"gf_currency_config":{"name":"Euro","symbol_left":"\u20ac","symbol_right":"","symbol_padding":" ","thousand_separator":".","decimal_separator":",","decimals":2},"base_url":"https://grebex.nl/wp-content/plugins/gravityforms","number_formats":[],"spinnerUrl":"https://grebex.nl/wp-content/plugins/gravityforms/images/spinner.svg","strings":{"newRowAdded":"Nieuwe rij toegevoegd.","rowRemoved":"Rij verwijderd","formSaved":"Het formulier is opgeslagen. De inhoud bevat de link om terug te keren en het formulier in te vullen."}};
+var gf_legacy_multi = {"2":""};
+//# sourceURL=gform_gravityforms-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://grebex.nl/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.5.8" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://grebex.nl/wp-content/plugins/gravityforms/js/page_conditional_logic.min.js?ver=2.5.8" id="gform_page_conditional_logic-js"></script>
+<script type="text/javascript" id="gform_conditional_logic-js-extra">
+/* <![CDATA[ */
+var gf_legacy = {"is_legacy":""};
+//# sourceURL=gform_conditional_logic-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://grebex.nl/wp-content/plugins/gravityforms/js/conditional_logic.min.js?ver=2.5.8" id="gform_conditional_logic-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/plugins/gravityformsrecaptcha/js/frontend.min.js?ver=1.4.0" id="gforms_recaptcha_frontend-js"></script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/plugins/gp-advanced-calculations/js/built/gp-advanced-calculations.js?ver=1.0.15" id="gp-advanced-calculations-js"></script>
+<script type="text/javascript" id="et-builder-modules-script-motion-js-extra">
+/* <![CDATA[ */
+var et_pb_motion_elements = {"desktop":[],"tablet":[],"phone":[]};
+//# sourceURL=et-builder-modules-script-motion-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/motion-effects.js?ver=4.11.2" id="et-builder-modules-script-motion-js"></script>
+<script type="text/javascript" id="et-builder-modules-script-sticky-js-extra">
+/* <![CDATA[ */
+var et_pb_sticky_elements = [];
+//# sourceURL=et-builder-modules-script-sticky-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://grebex.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/sticky-elements.js?ver=4.11.2" id="et-builder-modules-script-sticky-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://grebex.nl/wp-includes/js/wp-emoji-release.min.js?ver=6.9.3"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://grebex.nl/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+<style id="et-builder-module-design-25-cached-inline-styles">.et_pb_section_0_tb_header.et_pb_section,.et_pb_section_1_tb_header.et_pb_section,.et_pb_section_2_tb_header.et_pb_section{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px}.et_pb_row_0_tb_header.et_pb_row{padding-left:0px!important;padding-left:0px}.et_pb_image_0_tb_header{max-width:170px;text-align:left;margin-left:0}.et_pb_menu_0_tb_header.et_pb_menu ul li a{font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:500;font-size:17px;color:#282828!important;transition:color 300ms ease 0ms}.et_pb_menu_0_tb_header.et_pb_menu ul li:hover>a,.et_pb_menu_0_tb_header.et_pb_menu ul li.current-menu-item a{color:#d7332c!important}.et_pb_menu_0_tb_header.et_pb_menu,.et_pb_menu_1_tb_header.et_pb_menu,.et_pb_menu_2_tb_header.et_pb_menu{background-color:#ffffff}.et_pb_menu_0_tb_header.et_pb_menu .nav li ul,.et_pb_menu_0_tb_header.et_pb_menu .et_mobile_menu,.et_pb_menu_0_tb_header.et_pb_menu .et_mobile_menu ul,.et_pb_menu_1_tb_header.et_pb_menu .nav li ul,.et_pb_menu_1_tb_header.et_pb_menu .et_mobile_menu,.et_pb_menu_1_tb_header.et_pb_menu .et_mobile_menu ul,.et_pb_menu_2_tb_header.et_pb_menu .nav li ul,.et_pb_menu_2_tb_header.et_pb_menu .et_mobile_menu,.et_pb_menu_2_tb_header.et_pb_menu .et_mobile_menu ul{background-color:#ffffff!important}.et_pb_menu_0_tb_header.et_pb_menu nav>ul>li>a:hover{opacity:1}.et_pb_menu_0_tb_header .et_pb_menu_inner_container>.et_pb_menu__logo-wrap .et_pb_menu__logo,.et_pb_menu_0_tb_header .et_pb_menu__logo-slot,.et_pb_menu_1_tb_header .et_pb_menu_inner_container>.et_pb_menu__logo-wrap .et_pb_menu__logo,.et_pb_menu_1_tb_header .et_pb_menu__logo-slot,.et_pb_menu_2_tb_header .et_pb_menu_inner_container>.et_pb_menu__logo-wrap .et_pb_menu__logo,.et_pb_menu_2_tb_header .et_pb_menu__logo-slot{width:auto;max-width:100%}.et_pb_menu_0_tb_header .et_pb_menu_inner_container>.et_pb_menu__logo-wrap .et_pb_menu__logo img,.et_pb_menu_0_tb_header .et_pb_menu__logo-slot .et_pb_menu__logo-wrap img,.et_pb_menu_1_tb_header .et_pb_menu_inner_container>.et_pb_menu__logo-wrap .et_pb_menu__logo img,.et_pb_menu_1_tb_header .et_pb_menu__logo-slot .et_pb_menu__logo-wrap img,.et_pb_menu_2_tb_header .et_pb_menu_inner_container>.et_pb_menu__logo-wrap .et_pb_menu__logo img,.et_pb_menu_2_tb_header .et_pb_menu__logo-slot .et_pb_menu__logo-wrap img{height:auto;max-height:none}.et_pb_menu_0_tb_header .mobile_nav .mobile_menu_bar:before,.et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__search-button,.et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__close-search-button,.et_pb_menu_0_tb_header .et_pb_menu__icon.et_pb_menu__cart-button,.et_pb_menu_1_tb_header .mobile_nav .mobile_menu_bar:before,.et_pb_menu_1_tb_header .et_pb_menu__icon.et_pb_menu__search-button,.et_pb_menu_1_tb_header .et_pb_menu__icon.et_pb_menu__close-search-button,.et_pb_menu_1_tb_header .et_pb_menu__icon.et_pb_menu__cart-button,.et_pb_menu_2_tb_header .mobile_nav .mobile_menu_bar:before,.et_pb_menu_2_tb_header .et_pb_menu__icon.et_pb_menu__search-button,.et_pb_menu_2_tb_header .et_pb_menu__icon.et_pb_menu__close-search-button,.et_pb_menu_2_tb_header .et_pb_menu__icon.et_pb_menu__cart-button{color:#7EBEC5}.et_pb_image_1_tb_header{max-width:100px;text-align:left;margin-left:0}.et_pb_column_3_tb_header{display:flex;align-items:center;flex-direction:row-reverse}.et_pb_menu_1_tb_header.et_pb_menu ul li a,.et_pb_menu_2_tb_header.et_pb_menu ul li a{font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif}.et_pb_menu_1_tb_header,.et_pb_menu_2_tb_header{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px!important;margin-right:0px!important;margin-bottom:0px!important;margin-left:0px!important}div.et_pb_section.et_pb_section_2_tb_header{background-image:linear-gradient(90deg,#000000 0%,#2d2d2d 100%)!important}.et_pb_column_4_tb_header{display:flex!important;align-items:center}.et_pb_text_0_tb_header.et_pb_text{color:#FFFFFF!important}.et_pb_text_0_tb_header{line-height:22px;font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-size:22px;line-height:22px;padding-bottom:0px!important;margin-bottom:0px!important}.et_pb_text_0_tb_header h1{font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:700;font-size:45px;color:#FFFFFF!important}.et_pb_text_0_tb_header h2{font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:700;font-size:36px;color:#000000!important;line-height:55px}.et_pb_text_0_tb_header h3{font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:700;font-size:30px;color:#000000!important;line-height:46px}@media only screen and (min-width:981px){.et_pb_section_1_tb_header,.et_pb_menu_1_tb_header,.et_pb_menu_2_tb_header{display:none!important}}@media only screen and (min-width:768px) and (max-width:980px){.et_pb_section_0_tb_header,.et_pb_menu_0_tb_header{display:none!important}}@media only screen and (max-width:767px){.et_pb_section_0_tb_header,.et_pb_menu_0_tb_header{display:none!important}}</style><style id="et-builder-module-design-181-cached-inline-styles">.et_pb_section_0_tb_footer.et_pb_section{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;background-color:#151515!important}.et_pb_column_0_tb_footer{margin-top:auto;margin-bottom:auto}.et_pb_text_0_tb_footer.et_pb_text{color:#000000!important}.et_pb_text_0_tb_footer{line-height:22px;font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:300;font-size:18px;line-height:22px;#new_footer_item h2{margin-bottom:0px!important}#new_footer_item h2 strong{color:#D7332C}}.et_pb_text_0_tb_footer h1{font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:700;font-size:45px;color:#FFFFFF!important}.et_pb_text_0_tb_footer h2{font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:700;font-size:25px;color:#FFFFFF!important}.et_pb_text_0_tb_footer h3{font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;font-weight:700;font-size:30px;color:#000000!important;line-height:46px}.et_pb_image_0_tb_footer .et_pb_image_wrap{border-radius:15px 15px 15px 15px;overflow:hidden}.et_pb_image_0_tb_footer{width:165px;text-align:left;margin-left:0}.et_pb_image_0_tb_footer.et_pb_module{margin-left:auto!important;margin-right:0px!important}</style><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 2) {gf_global["number_formats"][2] = {"4":{"price":false,"value":"decimal_dot"},"21":{"price":false,"value":"decimal_dot"},"2":{"price":false,"value":"decimal_dot"},"5":{"price":false,"value":"decimal_dot"},"6":{"price":false,"value":"currency"},"38":{"price":false,"value":"currency"},"7":{"price":false,"value":"currency"},"8":{"price":false,"value":"decimal_dot"},"43":{"price":false,"value":false},"12":{"price":false,"value":false},"10":{"price":false,"value":"decimal_dot"},"14":{"price":false,"value":"decimal_dot"},"15":{"price":false,"value":"decimal_dot"},"16":{"price":false,"value":"decimal_dot"},"17":{"price":false,"value":"decimal_dot"},"18":{"price":false,"value":"decimal_dot"},"20":{"price":false,"value":"decimal_comma"},"41":{"price":false,"value":false},"23":{"price":false,"value":"decimal_dot"},"26":{"price":false,"value":"decimal_comma"},"25":{"price":false,"value":"decimal_dot"},"29":{"price":false,"value":"decimal_dot"},"34":{"price":false,"value":"decimal_dot"},"11":{"price":false,"value":"decimal_dot"},"30":{"price":false,"value":"decimal_dot"},"9":{"price":false,"value":"decimal_dot"},"31":{"price":false,"value":"decimal_dot"},"39":{"price":false,"value":"decimal_dot"},"44":{"price":false,"value":"currency"},"32":{"price":false,"value":"currency"},"33":{"price":false,"value":"decimal_dot"}};if(window['jQuery']){if(!window['gf_form_conditional_logic'])window['gf_form_conditional_logic'] = new Array();window['gf_form_conditional_logic'][2] = { logic: {  }, dependents: {  }, animation: 0, defaults: {"2":"11","10":"1000000","14":"480","15":"680","16":"20","17":"20","18":"1440"}, fields: {"4":[],"21":[],"2":[],"5":[],"6":[],"38":[],"7":[],"8":[],"43":[],"12":[],"10":[],"14":[],"15":[],"16":[],"17":[],"18":[],"20":[],"41":[],"23":[],"26":[],"25":[],"29":[],"34":[],"11":[],"30":[],"9":[],"31":[],"39":[],"44":[],"32":[],"33":[]} }; if(!window['gf_number_format'])window['gf_number_format'] = 'decimal_comma';jQuery(document).ready(function(){window['gformInitPriceFields']();gf_apply_rules(2, [], true);jQuery('#gform_wrapper_2').show();jQuery(document).trigger('gform_post_conditional_logic', [2, null, true]);} );} ; new GFPageConditionalLogic( {"formId":2,"formButton":{"type":"text","text":"Versturen","imageUrl":"","conditionalLogic":null},"pagination":{"type":"percentage","pages":["","",""],"style":"custom","backgroundColor":"#5C1D1A","color":"#fff","display_progressbar_on_confirmation":false,"progressbar_completion_text":null},"pages":[{"fieldId":43,"conditionalLogic":{"enabled":true,"actionType":"show","logicType":"all","rules":[{"fieldId":"4","operator":"is","value":"99999999"}]},"nextButton":{"type":"text","text":"Volgende","imageUrl":"","id":43,"conditionalLogic":""}},{"fieldId":41,"conditionalLogic":"","nextButton":{"type":"text","text":"Volgende","imageUrl":"","id":41}}]} );if( typeof window.gf_global["gfcalc"] == "undefined" ) { window.gf_global["gfcalc"] = {}; } window.gf_global["gfcalc"][2] = new GFCalc(2, [{"field_id":7,"formula":"{Uurtarief automatisering:38}+{Uurtarief bewerkingscentrum:6}","rounding":""},{"field_id":20,"formula":"{Lade dikte:17}+{Product hoogte (minimaal 11):2}","rounding":""},{"field_id":23,"formula":"(floor(({Totale hoogte machine:18})\/{Lade steek machine technisch:25}))","rounding":"0"},{"field_id":26,"formula":"{Aantal producten X:29}*{Aantal producten Y:34}*{Aantal lades:23}","rounding":"norounding"},{"field_id":25,"formula":"(ceil(({Lade steek theoretisch mogelijk:20})\/30)*30)","rounding":"0"},{"field_id":29,"formula":"{Lade grote (breedte):14}\/({Extra vrije ruimte om product:16}+{Product grote (breedte):4})","rounding":"0"},{"field_id":34,"formula":"{Lade grote (lengte):15}\/({Product grote (lengte):21}+{Extra vrije ruimte om product:16})","rounding":"0"},{"field_id":11,"formula":"({Cyclustijd product:5}*{Totaal aantal producten:26}\/3600)","rounding":""},{"field_id":30,"formula":"{Aantal te bewerken producten:8}\/{Totaal aantal producten:26}","rounding":"1"},{"field_id":9,"formula":"{Investering:10}\/(({Tarief complete set:7}-{Uurtarief draai\/freesbank:6})*{Total runtime in urenmet volle machine:11})","rounding":"1"},{"field_id":31,"formula":"({Cyclustijd product:5}*{Totaal aantal producten:26})\/3600","rounding":"1"},{"field_id":39,"formula":"({Cyclustijd product:5}*{Totaal aantal producten:26})\/3600*{Aantal volledige machine vullingen:30}","rounding":"0"},{"field_id":44,"formula":"{Totale productietijd (uren):39}*{Tarief complete set:7}","rounding":"0"},{"field_id":32,"formula":"{Investering:10}\/{Totaal aantal productie uren:31}","rounding":""},{"field_id":33,"formula":"{Investering:10}\/({Totaal aantal productie uren:31}*({Tarief complete set:7}-{Uurtarief draai\/freesbank:6}))","rounding":""}]);gformInitCurrencyFormatFields('#input_2_6,#input_2_38,#input_2_7,#input_2_44,#input_2_32');new GPAdvancedCalculations({ formId: 2 });} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [2, 1]) } ); 
+/* ]]> */
+</script>
+	
+	</body>
+</html>
