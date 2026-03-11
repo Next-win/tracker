@@ -50,8 +50,8 @@ export async function POST(request: NextRequest) {
       ip: ip,
     };
 
-    // GPS data toevoegen indien beschikbaar
-    if (body.type === "gps") {
+    // GPS data toevoegen indien beschikbaar (ook voor live tracking)
+    if (body.type === "gps" || body.type === "gps_live") {
       locationData.latitude = body.latitude;
       locationData.longitude = body.longitude;
       locationData.accuracy = body.accuracy;

