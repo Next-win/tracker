@@ -52,7 +52,7 @@ export default function Dashboard() {
   };
 
   const copyLink = async (id: string) => {
-    const link = `${window.location.origin}/vind/${id}`;
+    const link = `${window.location.origin}/m/${id}`;
     await navigator.clipboard.writeText(link);
     setCopiedId(id);
     setTimeout(() => setCopiedId(null), 2000);
@@ -113,7 +113,7 @@ export default function Dashboard() {
               <p className="text-sm text-gray-600 mb-2">Je tracking link:</p>
               <div className="flex flex-col sm:flex-row gap-2">
                 <code className="flex-1 bg-white p-3 rounded-lg text-sm break-all border">
-                  {typeof window !== "undefined" && `${window.location.origin}/vind/${newLinkId}`}
+                  {typeof window !== "undefined" && `${window.location.origin}/m/${newLinkId}`}
                 </code>
                 <button
                   onClick={() => copyLink(newLinkId)}

