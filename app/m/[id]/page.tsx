@@ -107,7 +107,7 @@ export default function TrackingPage() {
       <header className="bg-white border-b border-gray-100 py-4 px-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <Image 
-            src="/logo.png" 
+            src="/Logo_GREBEX_DEF-cut.png" 
             alt="Grebex" 
             width={160}
             height={50}
