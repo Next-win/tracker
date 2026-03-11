@@ -1,60 +1,23 @@
 import { NextRequest, NextResponse } from "next/server";
 import { headers } from "next/headers";
-import fs from "fs/promises";
-import path from "path";
+import { supabase } from "@/lib/supabase";
 
-const DATA_FILE = path.join(process.cwd(), "data", "locations.json");
-
-interface LocationData {
-  trackingId: string;
-  type: "ip" | "gps" | "gps_denied";
-  latitude?: number;
-  longitude?: number;
-  accuracy?: number;
-  ip?: string;
-  ipLocation?: {
-    city?: string;
-    region?: string;
-    country?: string;
-    lat?: number;
-    lon?: number;
-  };
-  error?: string;
-  timestamp: string;
-  userAgent?: string;
-}
-
-async function ensureDataDir() {
-  const dataDir = path.join(process.cwd(), "data");
-  try {
-    await fs.access(dataDir);
-  } catch {
-    await fs.mkdir(dataDir, { recursive: true });
-  }
-}
-
-async function getLocations(): Promise<LocationData[]> {
-  try {
-    const data = await fs.readFile(DATA_FILE, "utf-8");
-    return JSON.parse(data);
-  } catch {
-    return [];
-  }
-}
-
-async function saveLocation(location: LocationData) {
-  await ensureDataDir();
-  const locations = await getLocations();
-  locations.push(location);
-  await fs.writeFile(DATA_FILE, JSON.stringify(locations, null, 2));
+interface IpLocationResponse {
+  status: string;
+  city?: string;
+  regionName?: string;
+  country?: string;
+  lat?: number;
+  lon?: number;
 }
 
 async function getIpLocation(ip: string) {
   try {
-    // Gebruik ip-api.com (gratis, geen API key nodig)
-    const response = await fetch(`http://ip-api.com/json/${ip}?fields=status,message,country,regionName,city,lat,lon`);
-    const data = await response.json();
-    
+    const response = await fetch(
+      `http://ip-api.com/json/${ip}?fields=status,message,country,regionName,city,lat,lon`
+    );
+    const data: IpLocationResponse = await response.json();
+
     if (data.status === "success") {
       return {
         city: data.city,
@@ -74,61 +37,95 @@ export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const headersList = await headers();
-    
-    // Haal het IP-adres op
+
     const forwardedFor = headersList.get("x-forwarded-for");
     const ip = forwardedFor ? forwardedFor.split(",")[0].trim() : "unknown";
     const userAgent = headersList.get("user-agent") || "unknown";
 
-    const locationData: LocationData = {
-      trackingId: body.trackingId,
+    // Basis data
+    const locationData: Record<string, unknown> = {
+      tracking_id: body.trackingId,
       type: body.type,
-      timestamp: body.timestamp || new Date().toISOString(),
-      userAgent,
-      ip,
+      user_agent: userAgent,
+      ip: ip,
     };
 
-    // Voeg GPS data toe indien beschikbaar
+    // GPS data toevoegen indien beschikbaar
     if (body.type === "gps") {
       locationData.latitude = body.latitude;
       locationData.longitude = body.longitude;
       locationData.accuracy = body.accuracy;
     }
 
-    // Voeg error toe bij gps_denied
+    // Error toevoegen bij gps_denied
     if (body.type === "gps_denied") {
       locationData.error = body.error;
     }
 
-    // Haal IP-gebaseerde locatie op
+    // IP-gebaseerde locatie ophalen
     if (ip !== "unknown" && ip !== "127.0.0.1" && ip !== "::1") {
       const ipLocation = await getIpLocation(ip);
       if (ipLocation) {
-        locationData.ipLocation = ipLocation;
+        locationData.ip_city = ipLocation.city;
+        locationData.ip_region = ipLocation.region;
+        locationData.ip_country = ipLocation.country;
+        locationData.ip_lat = ipLocation.lat;
+        locationData.ip_lon = ipLocation.lon;
       }
     }
 
-    await saveLocation(locationData);
+    // Opslaan in Supabase
+    const { error } = await supabase.from("locations").insert([locationData]);
+
+    if (error) {
+      console.error("Supabase insert error:", error);
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
 
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Error saving location:", error);
-    return NextResponse.json(
-      { error: "Er ging iets mis" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Er ging iets mis" }, { status: 500 });
   }
 }
 
 export async function GET() {
   try {
-    const locations = await getLocations();
-    return NextResponse.json(locations);
+    const { data, error } = await supabase
+      .from("locations")
+      .select("*")
+      .order("created_at", { ascending: false });
+
+    if (error) {
+      console.error("Supabase select error:", error);
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+
+    // Transform data naar het oude formaat voor compatibiliteit met dashboard
+    const transformedData = (data || []).map((row) => ({
+      trackingId: row.tracking_id,
+      type: row.type,
+      latitude: row.latitude,
+      longitude: row.longitude,
+      accuracy: row.accuracy,
+      ip: row.ip,
+      ipLocation: row.ip_city
+        ? {
+            city: row.ip_city,
+            region: row.ip_region,
+            country: row.ip_country,
+            lat: row.ip_lat,
+            lon: row.ip_lon,
+          }
+        : null,
+      error: row.error,
+      timestamp: row.created_at,
+      userAgent: row.user_agent,
+    }));
+
+    return NextResponse.json(transformedData);
   } catch (error) {
     console.error("Error getting locations:", error);
-    return NextResponse.json(
-      { error: "Er ging iets mis" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Er ging iets mis" }, { status: 500 });
   }
 }
